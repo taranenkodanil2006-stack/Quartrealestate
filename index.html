@@ -1,0 +1,3214 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Кварта — агенція нерухомості в Києві</title>
+<meta name="description" content="Агенція нерухомості «Кварта» в Києві: купівля, продаж і оренда квартир з юридичною перевіркою кожного об’єкта. 640+ угод без прихованих платежів.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0F0E0C">
+<!-- TODO: заміни https://kvarta.ua/ на реальний домен сайту (тут, в og:url і в JSON-LD нижче) -->
+<link rel="canonical" href="https://kvarta.ua/">
+
+<!-- ============================================================
+  ПРЕВʼЮ ПОСИЛАННЯ (Telegram, Instagram, Facebook, Viber)
+============================================================ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Кварта">
+<meta property="og:locale" content="uk_UA">
+<meta property="og:title" content="Кварта — агенція нерухомості в Києві">
+<meta property="og:description" content="Агенція нерухомості «Кварта» в Києві: купівля, продаж і оренда квартир з юридичною перевіркою кожного об’єкта. 640+ угод без прихованих платежів.">
+<meta property="og:url" content="https://kvarta.ua/">
+<!-- TODO: завантаж картинку превʼю 1200×630 px (JPG або PNG, до 1 МБ) і встав повний https-URL нижче -->
+<meta property="og:image" content="https://kvarta.ua/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Кварта — агенція нерухомості в Києві">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Кварта — агенція нерухомості в Києві">
+<meta name="twitter:description" content="Агенція нерухомості «Кварта» в Києві: купівля, продаж і оренда квартир з юридичною перевіркою кожного об’єкта. 640+ угод без прихованих платежів.">
+<meta name="twitter:image" content="https://kvarta.ua/og-image.jpg">
+
+<!-- ============================================================
+  ІКОНКИ — файли лежать у корені сайту поруч з index.html:
+  favicon.ico, favicon.svg, favicon-32.png, favicon-16.png,
+  apple-touch-icon.png, icon-192.png, icon-512.png, site.webmanifest
+============================================================ -->
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/favicon-16.png" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<!-- ============================================================
+  АНАЛІТИКА
+============================================================ -->
+<!-- GA4: вставити тег тут (Google Analytics → Адміністратор → Потоки даних → Інструкції з тегування) -->
+<!-- Meta Pixel: вставити тут (Meta Events Manager → Джерела даних → Піксель → Встановити код вручну) -->
+<!-- ⚠️ Після підключення аналітики онови «Політику файлів cookie» і додай банер згоди на cookie -->
+
+<!-- Структуровані дані для Google (картка організації в пошуку) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "Кварта",
+  "description": "Агенція нерухомості «Кварта» в Києві: купівля, продаж і оренда квартир з юридичною перевіркою кожного об’єкта. 640+ угод без прихованих платежів.",
+  "url": "https://kvarta.ua/",
+  "email": "hello@kvarta.ua",
+  "telephone": "+380440000000",
+  "areaServed": { "@type": "City", "name": "Київ" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Київ", "addressCountry": "UA" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "19:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "15:00" }
+  ]
+}
+</script>
+
+<!-- ============================================================
+  ШРИФТИ — міняй під свій проєкт
+  Знайти шрифти: fonts.google.com
+============================================================ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ============================================================
+  КОЛЬОРИ — міняй тут
+  --bg: колір фону світлих секцій
+  --ink: основний темний колір (текст, кнопки)
+  --accent: акцентний колір (CTA, мітки)
+============================================================ */
+:root {
+  --bg:     #FAFAF7;
+  --ink:    #0F0E0C;
+  --accent: #E84B1C;
+}
+
+html { scroll-behavior: auto; }
+
+body {
+  background: var(--ink);
+  font-family: var(--font);
+  overflow-x: hidden;
+}
+
+/* ============================================================
+  🔒 НЕ ЧІПАЙ — SCROLL ENGINE
+  Ця секція відповідає за sticky поведінку.
+  Міняти тільки значення height якщо потрібно більше/менше скролу.
+  Зараз: 2 × висота екрану (для відео скрабінгу)
+============================================================ */
+#scroll-container {
+  position: relative;
+  height: calc(var(--vh, 100vh) * 2);
+}
+
+/* ============================================================
+  🔒 НЕ ЧІПАЙ — HERO (sticky відео секція)
+============================================================ */
+#hero {
+  position: sticky;
+  top: 0;
+  height: var(--vh, 100vh);
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+  z-index: 1;
+}
+
+#bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  will-change: contents;
+  transform-origin: center center;
+}
+
+/* overlay — затемнення відео знизу */
+#hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.05) 0%,
+    rgba(0,0,0,0.0) 40%,
+    rgba(0,0,0,0.6) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ============================================================
+  ✏️ МІНЯЙ — навігація поверх відео
+============================================================ */
+#hero-nav {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 48px;
+}
+
+.nav-logo {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 13px;
+  color: rgba(255,255,255,0.65);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover { color: #fff; }
+
+.nav-cta a {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.22);
+  padding: 10px 24px;
+  border-radius: 100px;
+  backdrop-filter: blur(10px);
+  transition: background 0.2s;
+}
+
+.nav-cta a:hover { background: rgba(255,255,255,0.22); }
+
+/* ============================================================
+  ✏️ МІНЯЙ — контент hero (знизу ліво)
+  🔒 НЕ ЧІПАЙ id="hero-content" — JS керує анімацією
+============================================================ */
+#hero-content {
+  position: absolute;
+  bottom: 72px;
+  left: 48px;
+  right: 48px;
+  z-index: 5;
+  will-change: transform, opacity;
+}
+
+.hero-label {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.45);
+  margin-bottom: 16px;
+}
+
+.hero-title {
+  font-family: var(--font);
+  font-size: clamp(48px, 6.5vw, 96px);
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: #fff;
+  max-width: 680px;
+}
+
+.hero-title em {
+  color: rgba(255,255,255,0.55);
+}
+
+.hero-sub {
+  margin-top: 28px;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.5);
+  max-width: 380px;
+  line-height: 1.3;
+}
+
+/* scroll hint */
+#scroll-hint {
+  position: absolute;
+  bottom: 72px;
+  right: 48px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  opacity: 0.4;
+}
+
+#scroll-hint span {
+  font-size: 10px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #fff;
+  writing-mode: vertical-rl;
+}
+
+.scroll-line {
+  width: 1px;
+  height: 48px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.7), transparent);
+  animation: scrollLine 1.8s ease-in-out infinite;
+}
+
+@keyframes scrollLine {
+  0%   { transform: scaleY(0); transform-origin: top; }
+  50%  { transform: scaleY(1); transform-origin: top; }
+  51%  { transform: scaleY(1); transform-origin: bottom; }
+  100% { transform: scaleY(0); transform-origin: bottom; }
+}
+
+/* ============================================================
+  ✏️ СЕКЦІЯ 2 — перша секція після hero
+  Звичайна секція, скролиться нормально
+============================================================ */
+#section-2 {
+  background: var(--bg);
+}
+
+/* ✏️ Контент всередині секції 2 — міняй вільно */
+.section-2-inner {
+  max-width: 760px;
+  padding: 80px 48px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 28px;
+}
+
+.section-title {
+  font-family: var(--font);
+  font-size: clamp(32px, 4.5vw, 60px);
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  margin-bottom: 24px;
+}
+
+.section-body {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(15,14,12,0.55);
+  line-height: 1.3;
+  max-width: 540px;
+  margin: 0 auto 44px;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--ink);
+  color: var(--bg);
+  font-family: var(--font);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 15px 36px;
+  border-radius: 100px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.btn-primary:hover { opacity: 0.85; transform: translateY(-2px); }
+
+/* ============================================================
+  ✏️ СЕКЦІЇ 3, 4, 5... — звичайні секції після scroll-container
+  Вони йдуть ПІСЛЯ </div> scroll-container
+  Додавай скільки завгодно — вони скролляться звичайно
+============================================================ */
+.regular-section {
+  background: var(--bg);
+  padding: 120px 48px;
+}
+
+.regular-section-dark {
+  background: var(--ink);
+  padding: 120px 48px;
+}
+
+/* Приклад сітки для карток */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 60px auto 0;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid rgba(15,14,12,0.1);
+  border-radius: 20px;
+  padding: 36px 32px;
+}
+
+.card-num {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: 12px;
+  letter-spacing: 0.02em;
+}
+
+.card-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(15,14,12,0.55);
+  line-height: 1.3;
+}
+
+/* Section header */
+.sec-header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sec-kicker {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+
+.sec-title {
+  font-family: var(--font);
+  font-size: clamp(32px, 4vw, 56px);
+  font-weight: 500;
+  color: var(--ink);
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+  max-width: 600px;
+}
+
+.sec-title-light {
+  color: #fff;
+}
+
+/* footer */
+footer {
+  background: var(--ink);
+  padding: 60px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .logo {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
+}
+
+footer .copy {
+  font-size: 13px;
+  color: rgba(255,255,255,0.3);
+}
+
+/* ============================================================
+  ✏️ HERO OVERLAY — текст в середині скролу (35% → 67%)
+  Міняй вільно: текст, розмір, позицію
+============================================================ */
+#hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 48px;
+  opacity: 0;
+  pointer-events: none;
+  will-change: opacity, transform;
+}
+
+.hero-overlay-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.45);
+  margin-bottom: 20px;
+}
+
+.hero-overlay-title {
+  font-family: var(--font);
+  font-size: clamp(40px, 6vw, 88px);
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+/* ============================================================
+  ✏️ КВАРТА — спільні стилі темних секцій з фоновим фото
+============================================================ */
+:root {
+  --glass:   rgba(255,255,255,0.06);
+  --glass-b: rgba(255,255,255,0.12);
+  --muted:   rgba(255,255,255,0.55);
+}
+
+.nav-logo span, .foot-logo span { color: var(--accent); }
+
+.sec-dark {
+  background: var(--ink);
+  padding: 120px 48px;
+  color: #fff;
+}
+
+/* Фонове фото секції (як в оригіналі Кварти) */
+.bg-sec { position: relative; overflow: hidden; }
+.bg-sec::before {
+  content: ''; position: absolute; inset: 0;
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+  opacity: .38; pointer-events: none; z-index: 0;
+}
+.bg-sec::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(to bottom, rgba(15,14,12,.55) 0%, rgba(15,14,12,.2) 50%, rgba(15,14,12,.55) 100%);
+  pointer-events: none; z-index: 0;
+}
+.bg-sec > * { position: relative; z-index: 1; }
+.bg-catalog::before  { background-image: url('https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1920/v1792862696/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3.jpg'); }
+.bg-how::before      { background-image: url('https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1920/v1792862720/4_%D0%BA%D1%80%D0%BE%D0%BA%D0%B8.jpg'); }
+.bg-services::before { background-image: url('https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1920/v1792862733/%D0%9F%D0%BE%D1%81%D0%BB%D1%83%D0%B3%D0%B8.jpg'); }
+.bg-reviews::before  { background-image: url('https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1920/v1792862742/%D0%92%D1%96%D0%B4%D0%B3%D1%83%D0%BA%D0%B8.jpg'); }
+
+.sec-head-row {
+  display: flex; align-items: flex-end; justify-content: space-between;
+  gap: 32px; flex-wrap: wrap;
+}
+.sec-dark .sec-title { color: #fff; }
+.sec-desc {
+  font-size: 15px; font-weight: 500;
+  color: var(--muted); line-height: 1.3; max-width: 380px;
+}
+.arr-link {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 13px; font-weight: 600; color: rgba(255,255,255,.75);
+  text-decoration: none; white-space: nowrap; transition: color .2s;
+}
+.arr-link:hover { color: #fff; }
+.arr-link svg { transition: transform .2s; }
+.arr-link:hover svg { transform: translate(2px,-2px); }
+
+.btn-light {
+  display: inline-flex; align-items: center; gap: 12px;
+  background: #fff; color: var(--ink);
+  font-family: var(--font);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase;
+  padding: 15px 32px; border-radius: 100px; border: none;
+  text-decoration: none; cursor: pointer; transition: opacity .2s;
+}
+.btn-light:hover { opacity: .85; }
+
+.glass {
+  background: rgba(15,14,12,.55);
+  border: 1px solid var(--glass-b);
+  backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+  border-radius: 20px;
+}
+
+/* ============================================================
+  ✏️ СЕКЦІЯ 2 — Каталог + Рекомендуємо
+============================================================ */
+.listings-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+  max-width: 1200px; margin: 60px auto 0;
+}
+/* Картка об'єкта — світла рамка, фото, 3 характеристики, ціна + адреса */
+.l-card {
+  background: #EFEEEA;
+  border: 1px solid rgba(255,255,255,.7);
+  border-radius: 28px;
+  padding: 8px;
+  display: flex; flex-direction: column; gap: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+  transition: transform .25s;
+}
+.l-card:hover { transform: translateY(-4px); }
+.l-img { position: relative; height: 220px; overflow: hidden; border-radius: 22px; background: #d8d6d0; }
+.l-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s; }
+.l-card:hover .l-img img { transform: scale(1.05); }
+.l-badges { position: absolute; top: 12px; left: 12px; display: flex; gap: 6px; flex-wrap: wrap; }
+.l-badge {
+  font-size: 11px; font-weight: 600; color: var(--ink);
+  background: rgba(255,255,255,.95); padding: 5px 11px; border-radius: 100px;
+}
+.l-badge.v { background: var(--accent); color: #fff; }
+.l-fav {
+  position: absolute; top: 10px; right: 10px;
+  width: 34px; height: 34px; border-radius: 50%; padding: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(255,255,255,.95); border: none; color: var(--ink); cursor: pointer;
+  transition: color .2s;
+}
+.l-fav.on { color: var(--accent); }
+.l-fav.on svg path { fill: currentColor; }
+.l-specs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.l-spec {
+  display: flex; align-items: center; justify-content: center; gap: 7px;
+  background: #fff; border-radius: 12px; padding: 10px 6px;
+  font-size: 13px; font-weight: 500; color: var(--ink); white-space: nowrap;
+}
+.l-spec svg { flex-shrink: 0; color: rgba(15,14,12,.7); }
+.l-body {
+  background: #fff; border-radius: 18px;
+  padding: 18px 20px;
+  display: flex; align-items: center; gap: 18px;
+}
+.l-price {
+  font-family: var(--font); font-size: 24px; font-weight: 600;
+  color: var(--ink); letter-spacing: 0.02em; white-space: nowrap;
+}
+.l-price small { font-size: 13px; font-weight: 500; color: rgba(15,14,12,.5); margin-left: 2px; }
+.l-addr { min-width: 0; }
+.l-street { font-size: 15px; font-weight: 600; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.l-city { font-size: 12px; color: rgba(15,14,12,.55); margin-top: 3px; }
+
+.feat-card {
+  position: relative; max-width: 1200px; height: 540px;
+  margin: 20px auto 0; border-radius: 24px; overflow: hidden; background: #222;
+}
+.feat-card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 6s ease; }
+.feat-card:hover img { transform: scale(1.04); }
+.feat-over {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,.85) 0%, rgba(0,0,0,.25) 55%, transparent 100%);
+  display: flex; flex-direction: column; justify-content: flex-end; padding: 48px;
+}
+.feat-tag {
+  width: fit-content; font-size: 12px; font-weight: 600; color: #fff;
+  background: var(--accent); padding: 6px 14px; border-radius: 100px; margin-bottom: 18px;
+}
+.feat-title {
+  font-family: var(--font); font-size: clamp(30px, 4vw, 56px);
+  font-weight: 500; line-height: 1.3; letter-spacing: 0.02em;
+  color: #fff; max-width: 16ch; margin-bottom: 28px;
+}
+.feat-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+.feat-details { display: flex; gap: 40px; flex-wrap: wrap; }
+.feat-d { display: flex; flex-direction: column; gap: 4px; }
+.feat-dl { font-size: 12px; color: rgba(255,255,255,.55); }
+.feat-dv { font-size: 18px; font-weight: 500; color: #fff; }
+
+/* ============================================================
+  ✏️ СЕКЦІЯ 3 — Як працюємо (таймлайн)
+============================================================ */
+/* Таймлайн кроків + фото з кнопкою */
+.tl-wrap {
+  display: grid; grid-template-columns: 1fr 440px; gap: 40px;
+  max-width: 1200px; margin: 64px auto 0; align-items: stretch;
+}
+.tl {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 0;
+  align-self: center;
+}
+.tl-step { padding-right: 24px; }
+.tl-head { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
+/* Нестандартні цифри: курсив Playfair + градієнт від білого до акценту */
+.tl-n {
+  font-family: var(--font); font-weight: 500;
+  font-size: 60px; line-height: 1.3; letter-spacing: 0.02em; flex-shrink: 0;
+  padding-right: 4px;
+  color: #fff;
+  background: linear-gradient(170deg, #fff 25%, rgba(255,255,255,.75) 50%, var(--accent) 100%);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 14px rgba(232,75,28,.25));
+}
+.tl-line {
+  position: relative; flex: 1; height: 1px;
+  background: linear-gradient(to right, rgba(255,255,255,.45), rgba(255,255,255,.12));
+}
+.tl-step:last-child .tl-line { display: none; }
+.tl-dot {
+  position: absolute; top: 50%; left: 0;
+  width: 5px; height: 5px; border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 6px 2px var(--accent), 0 0 16px 4px rgba(232,75,28,.45);
+  transform: translate(-50%, -50%);
+  animation: tlRun 4s ease-in-out infinite;
+}
+.tl-step:nth-child(2) .tl-dot { animation-delay: 1s; }
+.tl-step:nth-child(3) .tl-dot { animation-delay: 2s; }
+@keyframes tlRun {
+  0%   { left: 0;    opacity: 0; }
+  15%  { opacity: 1; }
+  85%  { opacity: 1; }
+  100% { left: 100%; opacity: 0; }
+}
+.tl-t {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase;
+  color: #fff; margin-bottom: 10px;
+}
+.tl-d { font-size: 13px; font-weight: 500; line-height: 1.3; color: rgba(255,255,255,.6); max-width: 200px; }
+
+.tl-aside {
+  position: relative; min-height: 300px; border-radius: 20px; overflow: hidden;
+  border: 1px solid rgba(255,255,255,.12); background: #222;
+}
+.tl-aside img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.tl-aside::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,.7) 0%, rgba(0,0,0,.15) 55%, rgba(0,0,0,.05) 100%);
+}
+.tl-btn {
+  position: absolute; left: 20px; right: 20px; bottom: 20px; z-index: 1;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 22px; border-radius: 14px;
+  background: rgba(15,14,12,.55); border: 1px solid rgba(255,255,255,.28);
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  color: #fff; text-decoration: none;
+  font-size: 12px; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase;
+  transition: background .2s, border-color .2s;
+}
+.tl-btn:hover { background: rgba(15,14,12,.75); border-color: rgba(255,255,255,.5); }
+.tl-btn svg { transition: transform .2s; }
+.tl-btn:hover svg { transform: translateX(4px); }
+
+@media (max-width: 1100px) {
+  .tl-wrap { grid-template-columns: 1fr; }
+  .tl-aside { min-height: 240px; }
+}
+@media (max-width: 768px) {
+  .tl-wrap { margin-top: 40px; gap: 28px; }
+  /* Вертикальний таймлайн */
+  .tl { grid-template-columns: 1fr; }
+  .tl-step {
+    position: relative; padding: 0 0 30px 64px;
+  }
+  .tl-head { position: absolute; left: 0; top: -4px; bottom: 0; flex-direction: column; align-items: flex-start; gap: 10px; margin: 0; }
+  .tl-n { font-size: 44px; }
+  .tl-line {
+    flex: 1; width: 1px; height: auto; margin-left: 22px;
+    background: linear-gradient(to bottom, rgba(255,255,255,.45), rgba(255,255,255,.12));
+  }
+  .tl-dot { left: 50%; top: 0; animation-name: tlRunV; }
+  @keyframes tlRunV {
+    0%   { top: 0;    opacity: 0; }
+    15%  { opacity: 1; }
+    85%  { opacity: 1; }
+    100% { top: 100%; opacity: 0; }
+  }
+  .tl-t { padding-top: 10px; }
+  .tl-d { max-width: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tl-dot { animation: none; left: 50%; }
+}
+
+/* ============================================================
+  ✏️ СЕКЦІЯ 4 — Послуги (картки)
+============================================================ */
+/* Три картки зигзагом, з'єднані світними лініями (малює JS) */
+.svc-flow {
+  position: relative; max-width: 1100px; margin: 64px auto 0;
+  display: flex; flex-direction: column; gap: 72px;
+}
+.svc-lines {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  overflow: visible; pointer-events: none; z-index: 2;
+}
+.svc-lines .ln-base { fill: none; stroke: var(--accent); stroke-width: 2; filter: drop-shadow(0 0 6px rgba(232,75,28,.8)); }
+.svc-lines .ln-run {
+  fill: none; stroke: #ffd7c4; stroke-width: 2; stroke-linecap: round;
+  stroke-dasharray: 40 1000; animation: lnRun 3.2s linear infinite;
+  filter: drop-shadow(0 0 8px rgba(255,140,90,.9));
+}
+@keyframes lnRun { from { stroke-dashoffset: 40; } to { stroke-dashoffset: -1000; } }
+.svc-lines circle { fill: var(--accent); stroke: #ffb08f; stroke-width: 2; filter: drop-shadow(0 0 8px rgba(232,75,28,.9)); }
+
+.svc {
+  position: relative; z-index: 1;
+  background: rgba(22,21,19,.88);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 22px;
+  box-shadow: 0 30px 60px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.06);
+  backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+  overflow: hidden;
+}
+.svc.lit { border-color: rgba(232,75,28,.55); box-shadow: 0 30px 60px rgba(0,0,0,.45), 0 0 0 1px rgba(232,75,28,.15), 0 -6px 30px -10px rgba(232,75,28,.45); }
+.svc-1 { width: 56%; }
+.svc-2 { width: 58%; margin-left: auto; }
+.svc-3 { width: 66%; }
+
+.svc-bar {
+  display: flex; align-items: center; gap: 8px;
+  padding: 16px 22px; border-bottom: 1px solid rgba(255,255,255,.08);
+}
+.svc-bar i { width: 11px; height: 11px; border-radius: 50%; display: block; }
+.svc-bar i:nth-child(1) { background: #ff5f57; }
+.svc-bar i:nth-child(2) { background: #febc2e; }
+.svc-bar i:nth-child(3) { background: #28c840; }
+.svc-bar span { flex: 1; height: 22px; margin-left: 14px; border-radius: 100px; background: rgba(255,255,255,.06); }
+
+.svc-in { padding: 36px 40px 40px; }
+.svc-k { font-size: 12px; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
+.svc-k svg { width: 18px; height: 18px; }
+.svc-t { font-family: var(--font); font-size: clamp(30px, 3.4vw, 44px); font-weight: 500; letter-spacing: 0.02em; color: #fff; line-height: 1.3; }
+.svc-hr { height: 1px; background: rgba(255,255,255,.12); margin: 24px 0; max-width: 260px; }
+.svc-d { font-size: 15px; font-weight: 500; color: rgba(255,255,255,.65); line-height: 1.3; max-width: 380px; }
+.svc-p { margin-top: 18px; font-size: 14px; font-weight: 600; color: #fff; }
+.svc-p::before { content: ''; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); margin-right: 10px; vertical-align: middle; box-shadow: 0 0 8px var(--accent); }
+
+/* Картка 1 — декоративна дуга */
+.svc-1 .svc-in { position: relative; }
+.svc-1 .svc-in::after {
+  content: ''; position: absolute; right: -40px; top: -20px;
+  width: 220px; height: 260px; border-radius: 50%;
+  border-left: 28px solid rgba(255,255,255,.05);
+  transform: rotate(28deg); pointer-events: none;
+}
+
+/* Картка 2 — вибір послуги */
+.svc-2 .svc-in { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: center; }
+.svc-opts { display: flex; flex-direction: column; gap: 10px; }
+.svc-opt {
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px 18px; border-radius: 12px;
+  background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.12);
+  color: #fff; font-family: var(--font); font-size: 16px; font-weight: 500;
+  cursor: pointer; text-align: left; transition: border-color .2s, background .2s;
+}
+.svc-opt:hover { border-color: rgba(255,255,255,.3); }
+.svc-opt .rd { width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid rgba(255,255,255,.4); flex-shrink: 0; position: relative; }
+.svc-opt .lbl { flex: 1; }
+.svc-opt svg { width: 20px; height: 20px; color: rgba(255,255,255,.7); flex-shrink: 0; }
+.svc-opt[aria-checked="true"] { border-color: var(--accent); background: rgba(232,75,28,.08); box-shadow: 0 0 18px -4px rgba(232,75,28,.6); }
+.svc-opt[aria-checked="true"] .rd { border-color: var(--accent); }
+.svc-opt[aria-checked="true"] .rd::after { content: ''; position: absolute; inset: 4px; border-radius: 50%; background: var(--accent); }
+.svc-opt[aria-checked="true"] svg { color: var(--accent); }
+
+/* Картка 3 — кнопка + фото */
+.svc-3 .svc-in { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: end; padding-right: 0; padding-bottom: 0; }
+.svc-3 .svc-txt { padding-bottom: 40px; }
+.svc-btn {
+  display: inline-flex; align-items: center; gap: 12px; margin-top: 28px;
+  background: #ffb08f; color: #1a1210;
+  font-size: 15px; font-weight: 600; text-decoration: none;
+  padding: 14px 26px; border-radius: 10px; transition: background .2s;
+}
+.svc-btn:hover { background: #ffc4aa; }
+.svc-btn svg { transition: transform .2s; }
+.svc-btn:hover svg { transform: translateX(4px); }
+.svc-img { align-self: stretch; position: relative; min-height: 300px; }
+.svc-img img {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 30%);
+          mask-image: linear-gradient(to right, transparent 0%, #000 30%);
+}
+
+@media (max-width: 1100px) {
+  .svc-1, .svc-2, .svc-3 { width: 80%; }
+}
+@media (max-width: 768px) {
+  .svc-flow { margin-top: 40px; gap: 48px; }
+  .svc-1, .svc-2, .svc-3 { width: 100%; }
+  .svc-in { padding: 26px 22px 28px; }
+  .svc-2 .svc-in, .svc-3 .svc-in { grid-template-columns: 1fr; }
+  .svc-3 .svc-in { padding: 26px 22px 0; }
+  .svc-3 .svc-txt { padding-bottom: 0; }
+  .svc-img { min-height: 200px; margin: 0 -22px; }
+  .svc-img img { -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 35%); mask-image: linear-gradient(to bottom, transparent 0%, #000 35%); }
+  .svc-1 .svc-in::after { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .svc-lines .ln-run { display: none; }
+}
+
+/* ============================================================
+  ✏️ СЕКЦІЯ 5 — Про нас + команда
+============================================================ */
+.about-sec { background: #141310; }
+.about-row {
+  display: grid; grid-template-columns: 1fr 1.4fr; gap: 64px;
+  max-width: 1200px; margin: 60px auto 0; align-items: start;
+}
+.about-sub {
+  font-family: var(--font);
+  font-size: clamp(20px, 2vw, 26px); line-height: 1.3;
+  color: rgba(255,255,255,.65); margin-top: 10px;
+}
+.about-text p { font-size: 16px; font-weight: 500; color: rgba(255,255,255,.6); line-height: 1.3; }
+.about-text p + p { margin-top: 16px; }
+.about-stats {
+  display: flex; gap: 40px; margin-top: 36px; padding-top: 28px;
+  border-top: 1px solid var(--glass-b);
+}
+.astat { display: flex; flex-direction: column; gap: 6px; }
+.astat-n { font-family: var(--font); font-size: 44px; line-height: 1.3; color: #fff; }
+.astat-l { font-size: 13px; color: var(--muted); }
+.team-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.tm-card {
+  background: var(--glass); border: 1px solid var(--glass-b); border-radius: 20px;
+  overflow: hidden; cursor: pointer; text-align: left;
+  font: inherit; color: inherit; padding: 0; transition: border-color .25s;
+}
+.tm-card:hover { border-color: rgba(255,255,255,.3); }
+.tm-photo { height: 240px; overflow: hidden; }
+.tm-photo img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s; }
+.tm-card:hover .tm-photo img { transform: scale(1.04); }
+.tm-info { padding: 16px 18px 18px; }
+.tm-name { font-size: 16px; font-weight: 500; color: #fff; margin-bottom: 4px; }
+.tm-role { font-size: 13px; color: var(--accent); }
+.tm-hint { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+/* Модалка команди */
+.modal-overlay {
+  display: none; position: fixed; inset: 0; z-index: 300;
+  background: rgba(10,10,10,.8);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  align-items: center; justify-content: center; padding: 20px;
+}
+.modal-overlay.open { display: flex; }
+.modal-card {
+  position: relative; display: flex; flex-direction: column; max-width: 460px; width: 100%;
+  max-height: 90vh; overflow: auto;
+  background: #1a1916; border: 1px solid var(--glass-b); border-radius: 24px;
+  animation: modalIn .3s ease;
+}
+@keyframes modalIn { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+.modal-close {
+  position: absolute; top: 14px; right: 14px; z-index: 2;
+  width: 36px; height: 36px; border-radius: 50%;
+  border: none; background: rgba(255,255,255,.12); color: #fff; font-size: 15px; cursor: pointer;
+}
+.modal-close:hover { background: rgba(255,255,255,.22); }
+.modal-photo-wrap { width: 100%; aspect-ratio: 4 / 3; flex-shrink: 0; overflow: hidden; }
+.modal-photo-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center center; display: block; }
+.modal-body { padding: 28px 30px 32px; display: flex; flex-direction: column; gap: 8px; }
+.modal-role { font-size: 13px; font-weight: 600; color: var(--accent); }
+.modal-name { font-family: var(--font); font-size: 28px; color: #fff; line-height: 1.3; }
+.modal-bio { font-size: 14px; font-weight: 500; color: rgba(255,255,255,.65); line-height: 1.3; margin-top: 6px; }
+.modal-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.modal-tag { font-size: 12px; color: rgba(255,255,255,.8); border: 1px solid var(--glass-b); border-radius: 100px; padding: 4px 11px; }
+
+/* ============================================================
+  ✏️ СЕКЦІЯ 6 — Відгуки (рідке скло)
+============================================================ */
+.rev-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px;
+  max-width: 1200px; margin: 60px auto 0;
+}
+
+/* --- Рідке скло: прозорість + сильне розмиття + блики по краях --- */
+.lg {
+  position: relative; isolation: isolate;
+  background: linear-gradient(160deg, rgba(255,255,255,.14) 0%, rgba(255,255,255,.05) 35%, rgba(255,255,255,.03) 65%, rgba(255,255,255,.08) 100%);
+  backdrop-filter: blur(26px) saturate(180%) brightness(1.05);
+  -webkit-backdrop-filter: blur(26px) saturate(180%) brightness(1.05);
+  border: 1px solid rgba(255,255,255,.16);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.45),
+    inset 0 -1px 0 rgba(255,255,255,.08),
+    inset 1px 0 0 rgba(255,255,255,.12),
+    inset 0 0 30px rgba(255,255,255,.04),
+    0 24px 60px rgba(0,0,0,.4);
+}
+/* Світлий відблиск зверху-зліва */
+.lg::before {
+  content: ''; position: absolute; inset: 0; border-radius: inherit; z-index: -1;
+  background:
+    radial-gradient(120% 60% at 0% 0%, rgba(255,255,255,.18) 0%, rgba(255,255,255,0) 50%),
+    radial-gradient(80% 40% at 100% 100%, rgba(255,255,255,.08) 0%, rgba(255,255,255,0) 60%);
+  pointer-events: none;
+}
+/* Райдужний край, як у скла */
+.lg::after {
+  content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1px;
+  background: linear-gradient(135deg, rgba(255,255,255,.6), rgba(255,255,255,.05) 30%, rgba(255,190,160,.25) 60%, rgba(255,255,255,.35));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor; mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Маленькі скляні плашки (район, ініціали) */
+.lg-pill {
+  background: linear-gradient(160deg, rgba(255,255,255,.28), rgba(255,255,255,.08));
+  backdrop-filter: blur(14px) saturate(180%); -webkit-backdrop-filter: blur(14px) saturate(180%);
+  border: 1px solid rgba(255,255,255,.35);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.55), 0 4px 14px rgba(0,0,0,.25);
+}
+
+.rev-card {
+  border-radius: 26px; padding: 8px;
+  display: flex; flex-direction: column;
+  transition: transform .35s ease, box-shadow .35s;
+}
+.rev-card:hover { transform: translateY(-5px); }
+
+/* Фото — всередині скляної рамки, з заокругленням */
+.rev-img {
+  position: relative; height: 220px; overflow: hidden;
+  border-radius: 20px; background: #2a2825;
+  box-shadow: 0 6px 18px rgba(0,0,0,.3);
+}
+.rev-img img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  transition: transform .7s ease;
+}
+.rev-card:hover .rev-img img { transform: scale(1.06); }
+.rev-img::after {
+  content: ''; position: absolute; inset: auto 0 0 0; height: 45%;
+  background: linear-gradient(to top, rgba(0,0,0,.35), transparent);
+  pointer-events: none;
+}
+.rev-lbl {
+  position: absolute; left: 12px; bottom: 12px; z-index: 1;
+  font-size: 12px; font-weight: 600; color: #fff;
+  padding: 6px 13px; border-radius: 100px;
+  text-shadow: 0 1px 6px rgba(0,0,0,.35);
+}
+
+.rev-body { padding: 22px 20px 20px; display: flex; flex-direction: column; flex: 1; }
+.rev-stars { color: var(--accent); font-size: 13px; letter-spacing: 0.02em; margin-bottom: 14px; }
+.rev-txt {
+  font-family: var(--font); font-size: 20px; line-height: 1.3;
+  color: #fff; flex: 1; margin-bottom: 22px;
+}
+.rev-au {
+  display: flex; align-items: center; gap: 12px;
+  padding-top: 18px; border-top: 1px solid rgba(255,255,255,.14);
+}
+.rev-av {
+  width: 42px; height: 42px; border-radius: 50%; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 600; color: #fff;
+}
+.rev-name { font-size: 15px; font-weight: 600; color: #fff; }
+.rev-deal { font-size: 13px; color: rgba(255,255,255,.6); margin-top: 2px; }
+
+@media (max-width: 1100px) {
+  .rev-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 768px) {
+  .rev-grid {
+    display: flex; gap: 14px; overflow-x: auto;
+    margin: 40px -20px 0; padding: 4px 20px 24px;
+    scroll-snap-type: x mandatory; scroll-padding: 0 20px;
+    -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  }
+  .rev-grid::-webkit-scrollbar { display: none; }
+  .rev-card { flex: 0 0 84%; scroll-snap-align: start; }
+  .rev-card:hover { transform: none; }
+  .lg { backdrop-filter: blur(16px) saturate(160%); -webkit-backdrop-filter: blur(16px) saturate(160%); }
+  .rev-img { height: 190px; }
+  .rev-txt { font-size: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rev-card, .rev-img img { transition: none; }
+}
+
+/* ============================================================
+  ✏️ СЕКЦІЯ 7 — Заявка (форма) (відео фон + форма)
+============================================================ */
+.cta-sec { position: relative; overflow: hidden; padding: 120px 48px; background: var(--ink); }
+.cta-vid { position: absolute; inset: 0; z-index: 0; }
+.cta-vid video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.cta-vid::after { content: ''; position: absolute; inset: 0; background: rgba(0,0,0,.55); }
+.cta-box {
+  position: relative; z-index: 3; width: 100%; max-width: 960px; margin: 0 auto;
+  display: flex; align-items: center; gap: 64px;
+  background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.16);
+  backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
+  border-radius: 28px; padding: 56px;
+}
+.cta-text { flex: 1; min-width: 0; }
+.cta-title {
+  font-family: var(--font); font-size: clamp(32px, 4vw, 54px);
+  font-weight: 500; line-height: 1.3; letter-spacing: 0.02em; color: #fff; margin-bottom: 18px;
+}
+.cta-sub { font-size: 15px; font-weight: 500; color: rgba(255,255,255,.65); line-height: 1.3; max-width: 360px; }
+.cta-form { display: flex; flex-direction: column; gap: 10px; width: 320px; flex-shrink: 0; }
+.cta-inp, .cta-sel {
+  width: 100%; background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2);
+  border-radius: 100px; padding: 14px 20px;
+  font-family: var(--font); font-size: 14px; color: #fff; outline: none; transition: border-color .2s;
+}
+.cta-inp::placeholder { color: rgba(255,255,255,.55); }
+.cta-inp:focus, .cta-sel:focus { border-color: rgba(255,255,255,.6); }
+.cta-sel { appearance: none; -webkit-appearance: none; cursor: pointer; color: rgba(255,255,255,.75); }
+.cta-sel option { background: #1a1a1a; color: #fff; }
+.cta-inp.error, .cta-sel.error { border-color: #ff7a7a; }
+.cta-sub-btn {
+  background: var(--accent); color: #fff; font-family: var(--font);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase;
+  padding: 16px; border-radius: 100px; border: none; cursor: pointer; transition: opacity .2s;
+}
+.cta-sub-btn:hover { opacity: .88; }
+.cta-sub-btn:disabled { opacity: .6; cursor: default; }
+.cta-note { font-size: 12px; color: rgba(255,255,255,.45); text-align: center; margin-top: 2px; }
+
+/* ============================================================
+  ✏️ СЕКЦІЯ 7 — Заявка на фоні «КВАРТА»
+============================================================ */
+.brand-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  min-height: 700px;
+  /* КВАРТА і форма в одній клітинці сітки — обидва точно по центру екрана */
+  display: grid;
+  place-items: center;
+  padding: 90px 4vw 120px;
+  overflow: hidden;
+  font-family: var(--font);
+  color: #fff;
+  background:
+    radial-gradient(circle at center, rgba(11,13,14,.25) 0%, rgba(11,13,14,.75) 100%),
+    linear-gradient(180deg, rgba(8,10,12,.5) 0%, transparent 40%, rgba(8,10,12,.85) 100%),
+    url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2400&q=85') center / cover no-repeat;
+  background-color: #0b0d0e;
+}
+
+/* Назва по центру на всю ширину */
+.bh-title-wrap {
+  grid-area: 1 / 1;
+  position: relative;
+  width: 100%;
+  z-index: 1; pointer-events: none;
+}
+.bh-title {
+  width: 100%;
+  display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--font);
+  font-size: clamp(3.5rem, 16.5vw, 20vw);
+  font-weight: 900; line-height: 1.3;
+  text-transform: uppercase; letter-spacing: 0.02em;
+  user-select: none;
+  text-shadow: 0 20px 50px rgba(0,0,0,.9), 0 4px 15px rgba(0,0,0,.7);
+}
+.bh-title span { display: inline-block; }
+
+/* Нижні підписи */
+.bh-footer {
+  position: absolute; z-index: 5;
+  left: 4vw; right: 4vw; bottom: 45px;
+  display: flex; justify-content: space-between; align-items: flex-end;
+}
+.bh-tagline {
+  font-size: clamp(.95rem, 1.6vw, 1.3rem);
+  font-weight: 500; text-transform: uppercase;
+  letter-spacing: 0.02em; line-height: 1.3; max-width: 380px;
+  text-shadow: 0 2px 12px rgba(0,0,0,.9);
+}
+.bh-location {
+  font-size: clamp(.75rem, 1.1vw, .95rem);
+  letter-spacing: 0.02em; text-transform: uppercase;
+  color: rgba(255,255,255,.85); font-weight: 500; text-align: right;
+  text-shadow: 0 2px 12px rgba(0,0,0,.9);
+}
+
+@media (max-width: 1100px) {
+  .cta-box { flex-direction: column; align-items: stretch; gap: 36px; padding: 44px 36px; }
+  .cta-form { width: 100%; }
+}
+@media (max-width: 768px) {
+  .cta-sec { padding: 64px 16px; }
+  .cta-box { padding: 32px 22px; border-radius: 20px; }
+}
+/* Плашка форми — прозоре скло поверх «КВАРТА» */
+.brand-hero .cta-box {
+  grid-area: 1 / 1;
+  z-index: 3;
+  background: linear-gradient(160deg, rgba(255,255,255,.07), rgba(10,10,10,.22));
+  /* прозоре, але все, що за склом, трохи приглушене — щоб текст форми читався */
+  backdrop-filter: blur(6px) brightness(.55) saturate(130%);
+  -webkit-backdrop-filter: blur(6px) brightness(.55) saturate(130%);
+  border: 1px solid rgba(255,255,255,.24);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 30px 80px rgba(0,0,0,.3);
+}
+.brand-hero .cta-title, .brand-hero .cta-sub, .brand-hero .cta-note { text-shadow: 0 2px 14px rgba(0,0,0,.7); }
+.brand-hero .cta-inp, .brand-hero .cta-sel {
+  background: rgba(10,10,10,.38);
+  border-color: rgba(255,255,255,.28);
+}
+@media (pointer: coarse) {
+  .brand-hero .cta-box { backdrop-filter: blur(4px) brightness(.55); -webkit-backdrop-filter: blur(4px) brightness(.55); }
+}
+
+@media (max-width: 600px) {
+  /* Телефон: «КВАРТА» точно по центру екрана (як на комп'ютері),
+     підписи — внизу цього екрана, форма — одразу під ним */
+  .brand-hero {
+    display: flex; flex-direction: column;
+    height: auto; min-height: 0; padding: 0 16px 64px;
+  }
+  .bh-title-wrap {
+    order: 1;
+    height: 100vh; height: 100svh; min-height: 480px;
+    display: flex; align-items: center;
+    margin: 0;
+  }
+  .brand-hero .bh-footer {
+    order: 2;
+    top: calc(100svh - 120px); bottom: auto;
+  }
+  .brand-hero .cta-box { order: 3; }
+  .bh-footer { left: 20px; right: 20px; bottom: 30px; }
+  .bh-footer { flex-direction: column; align-items: flex-start; gap: 14px; }
+  .bh-location { text-align: left; }
+}
+
+.toast {
+  position: fixed; bottom: 28px; left: 50%; transform: translateX(-50%) translateY(90px);
+  background: #1a1916; color: #fff; border: 1px solid var(--glass-b);
+  border-radius: 100px; padding: 14px 28px; font-size: 14px; font-weight: 500;
+  z-index: 999; max-width: calc(100% - 32px); text-align: center;
+  opacity: 0; pointer-events: none; transition: transform .35s ease, opacity .35s;
+}
+.toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+.toast.err { color: #ff9a9a; }
+
+/* ============================================================
+  ✏️ ПІДВАЛ (повний, як в оригіналі)
+============================================================ */
+.site-footer {
+  display: block;
+  background: var(--ink); border-top: 1px solid var(--glass-b);
+  padding: 72px 48px 32px; color: #fff;
+}
+.foot-top {
+  display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px;
+  max-width: 1200px; margin: 0 auto;
+  padding-bottom: 48px; border-bottom: 1px solid var(--glass-b);
+}
+.foot-logo { font-size: 16px; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase; margin-bottom: 14px; }
+.foot-desc { font-size: 14px; font-weight: 500; color: var(--muted); line-height: 1.3; max-width: 320px; }
+.foot-ht { font-size: 13px; font-weight: 600; color: #fff; margin-bottom: 16px; }
+.foot-ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.foot-ul a, .foot-ul span { font-size: 14px; color: var(--muted); text-decoration: none; transition: color .2s; }
+.foot-ul a:hover { color: #fff; }
+.foot-bot {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  max-width: 1200px; margin: 24px auto 0;
+}
+.foot-copy { font-size: 13px; color: rgba(255,255,255,.35); }
+.foot-soc { display: flex; gap: 8px; }
+.soc-btn {
+  width: 36px; height: 36px; border-radius: 50%;
+  border: 1px solid var(--glass-b); color: var(--muted);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 600; text-decoration: none;
+  transition: border-color .2s, color .2s;
+}
+.soc-btn:hover { border-color: rgba(255,255,255,.4); color: #fff; }
+
+/* ============================================================
+  ✏️ БУРГЕР + МОБІЛЬНЕ МЕНЮ (з контактами)
+============================================================ */
+.nav-burger {
+  display: none; flex-direction: column; gap: 5px;
+  background: none; border: none; padding: 8px; cursor: pointer;
+}
+.nav-burger span { display: block; width: 22px; height: 2px; background: #fff; border-radius: 2px; }
+.mob-menu {
+  display: none; position: fixed; inset: 0; z-index: 400;
+  background: rgba(15,14,12,.97);
+  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  flex-direction: column; justify-content: space-between;
+  padding: 24px 24px max(32px, env(safe-area-inset-bottom, 32px));
+  overflow-y: auto;
+}
+.mob-menu.open { display: flex; }
+.mob-top { display: flex; align-items: center; justify-content: space-between; }
+.mob-close {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: rgba(255,255,255,.1); border: none; color: #fff; font-size: 16px; cursor: pointer;
+}
+.mob-links { display: flex; flex-direction: column; gap: 18px; margin: 40px 0; }
+.mob-links a {
+  font-family: var(--font); font-size: 36px; line-height: 1.3;
+  color: #fff; text-decoration: none;
+}
+.mob-contacts { border-top: 1px solid var(--glass-b); padding-top: 24px; display: flex; flex-direction: column; gap: 10px; }
+.mob-contacts .foot-ht { margin-bottom: 4px; }
+.mob-contacts a, .mob-contacts span { font-size: 15px; color: rgba(255,255,255,.75); text-decoration: none; }
+.mob-contacts .foot-soc { margin-top: 8px; }
+.mob-cta {
+  margin-top: 24px; width: 100%;
+  background: var(--accent); color: #fff; border: none; border-radius: 100px;
+  font-family: var(--font); font-size: 12px; font-weight: 600;
+  letter-spacing: 0.02em; text-transform: uppercase; padding: 16px; cursor: pointer;
+  text-align: center; text-decoration: none; display: block;
+}
+
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+@media (max-width: 1100px) {
+  .listings-grid { grid-template-columns: repeat(2, 1fr); }
+  .about-row { grid-template-columns: 1fr; gap: 48px; }
+  .foot-top { grid-template-columns: 1fr 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .feat-card img, .l-img img, .tm-photo img, .rev-img img { transition: none; }
+  .modal-card { animation: none; }
+}
+
+/* ============================================================
+  ✏️ HERO — читабельність тексту і меню поверх світлого відео
+============================================================ */
+/* Сильніше затемнення: зверху (під меню) і знизу-зліва (під текстом) */
+#hero::after {
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 22%),
+    linear-gradient(to top, rgba(0,0,0,.82) 0%, rgba(0,0,0,.35) 45%, rgba(0,0,0,0) 70%),
+    linear-gradient(to right, rgba(0,0,0,.45) 0%, rgba(0,0,0,0) 60%);
+}
+
+/* Меню — завжди видно */
+.nav-logo { color: #fff; text-shadow: 0 1px 12px rgba(0,0,0,.45); }
+.nav-links a { color: rgba(255,255,255,.92); font-weight: 500; text-shadow: 0 1px 10px rgba(0,0,0,.55); }
+.nav-links a:hover { color: #fff; }
+.nav-cta a { background: rgba(15,14,12,.45); border-color: rgba(255,255,255,.35); }
+.nav-cta a:hover { background: rgba(15,14,12,.65); }
+.nav-burger span { box-shadow: 0 1px 6px rgba(0,0,0,.5); }
+
+/* Текст hero */
+.hero-label { color: rgba(255,255,255,.85); text-shadow: 0 1px 10px rgba(0,0,0,.5); }
+.hero-title { text-shadow: 0 2px 24px rgba(0,0,0,.35); }
+.hero-title em { color: rgba(255,255,255,.82); }
+.hero-sub {
+  color: rgba(255,255,255,.9); font-weight: 500; max-width: 460px;
+  text-shadow: 0 1px 12px rgba(0,0,0,.6);
+}
+
+/* Рейтинг + кнопки */
+.hero-row {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 24px; flex-wrap: wrap; margin-top: 28px;
+}
+.hero-proof { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.proof-pill {
+  display: flex; align-items: center; gap: 12px;
+  background: rgba(15,14,12,.55); border: 1px solid rgba(255,255,255,.18);
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  border-radius: 100px; padding: 6px 18px 6px 6px;
+}
+.proof-avatars { display: flex; }
+.proof-av {
+  width: 32px; height: 32px; border-radius: 50%; overflow: hidden;
+  border: 2px solid #1a1916; margin-left: -8px; background: #333;
+}
+.proof-av:first-child { margin-left: 0; }
+.proof-av img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.proof-txt { font-size: 13px; color: rgba(255,255,255,.85); line-height: 1.3; }
+.proof-txt strong { color: #fff; }
+.proof-stars { color: var(--accent); font-size: 11px; letter-spacing: 0.02em; }
+.proof-sep { width: 1px; height: 34px; background: rgba(255,255,255,.3); }
+.proof-num { font-size: 13px; color: rgba(255,255,255,.85); line-height: 1.3; text-shadow: 0 1px 10px rgba(0,0,0,.6); }
+.proof-num strong { display: block; font-size: 22px; color: #fff; font-weight: 600; }
+
+.hero-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+.btn-hero {
+  font-family: var(--font); font-size: 14px; font-weight: 600;
+  padding: 14px 28px; border-radius: 100px; text-decoration: none; white-space: nowrap;
+  transition: opacity .2s, background .2s;
+}
+.btn-hero.w { background: #fff; color: var(--ink); }
+.btn-hero.w:hover { opacity: .88; }
+.btn-hero.g {
+  color: #fff; background: rgba(15,14,12,.45); border: 1px solid rgba(255,255,255,.35);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+}
+.btn-hero.g:hover { background: rgba(15,14,12,.65); }
+
+/* Пошук */
+.search-box {
+  display: flex; align-items: center; gap: 10px;
+  max-width: 820px; margin-top: 16px;
+  background: rgba(15,14,12,.6); border: 1px solid rgba(255,255,255,.18);
+  backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+  border-radius: 100px; padding: 6px;
+}
+.s-tabs { display: flex; gap: 2px; flex-shrink: 0; }
+.s-tab {
+  font-family: var(--font); font-size: 13px; font-weight: 500;
+  color: rgba(255,255,255,.75); background: none; border: none;
+  padding: 10px 16px; border-radius: 100px; cursor: pointer; transition: background .2s, color .2s;
+}
+.s-tab:hover { color: #fff; }
+.s-tab.on { background: var(--accent); color: #fff; }
+.s-sep { width: 1px; height: 26px; background: rgba(255,255,255,.2); flex-shrink: 0; }
+.s-input {
+  flex: 1; min-width: 0; background: none; border: none; outline: none;
+  font-family: var(--font); font-size: 15px; color: #fff; padding: 10px 8px;
+}
+.s-input::placeholder { color: rgba(255,255,255,.6); }
+.s-btn {
+  font-family: var(--font); font-size: 14px; font-weight: 600;
+  background: #fff; color: var(--ink); border: none; border-radius: 100px;
+  padding: 12px 28px; cursor: pointer; flex-shrink: 0; transition: opacity .2s;
+}
+.s-btn:hover { opacity: .88; }
+
+/* Меню: без переносу слів; на планшетах (до 1024px) — бургер */
+.nav-links a { white-space: nowrap; }
+@media (max-width: 1024px) {
+  .nav-links, .nav-cta { display: none; }
+  .nav-burger { display: flex; }
+}
+
+/* Мобайл: blur поверх відео, що перемотується, перераховується кожен кадр
+   і гальмує анімацію — замінюємо його на щільний напівпрозорий фон */
+@media (pointer: coarse) {
+  .proof-pill, .btn-hero.g, .search-box, .nav-cta a {
+    backdrop-filter: none; -webkit-backdrop-filter: none;
+    background: rgba(15,14,12,.78);
+  }
+  #bg-video { transform: translateZ(0); }
+}
+
+/* Індикатор scroll прибрано — він перекривав кнопки */
+#scroll-hint { display: none; }
+
+/* Текст посередині скролу — темна підкладка, щоб читалось на світлому відео */
+#hero-overlay {
+  background: radial-gradient(ellipse 70% 60% at center, rgba(0,0,0,.62) 0%, rgba(0,0,0,.35) 55%, rgba(0,0,0,0) 85%);
+}
+.hero-overlay-label { color: rgba(255,255,255,.9); text-shadow: 0 1px 12px rgba(0,0,0,.6); }
+.hero-overlay-title { text-shadow: 0 2px 30px rgba(0,0,0,.55), 0 1px 4px rgba(0,0,0,.35); }
+
+/* ============================================================
+  МОБАЙЛ
+============================================================ */
+@media (max-width: 768px) {
+  #hero-nav { padding: 20px 24px; }
+  .nav-links { display: none; }
+  #hero-content { bottom: 48px; left: 24px; right: 24px; }
+  #scroll-hint { display: none; }
+  .section-2-inner { padding: 60px 28px; }
+  #hero-content { bottom: max(24px, env(safe-area-inset-bottom, 24px)); left: 20px; right: 20px; }
+  .hero-title { font-size: clamp(28px, 8.5vw, 52px); }
+  .hero-sub { font-size: 13px; margin-top: 12px; }
+  #hero-overlay { padding: 24px; }
+  .hero-overlay-title { font-size: clamp(32px, 9vw, 52px); }
+  .hero-overlay-label { margin-bottom: 12px; }
+  .regular-section, .regular-section-dark { padding: 80px 24px; }
+  footer { flex-direction: column; gap: 16px; text-align: center; padding: 48px 24px; }
+  .nav-cta { display: none; }
+  .hero-title { font-size: clamp(30px, 9vw, 46px); }
+  .hero-row { margin-top: 16px; gap: 14px; }
+  .proof-num strong { font-size: 18px; }
+  .hero-btns { width: 100%; }
+  .btn-hero { flex: 1; text-align: center; padding: 12px 10px; font-size: 13px; }
+  .search-box { flex-wrap: wrap; border-radius: 20px; padding: 8px; margin-top: 12px; }
+  .s-tabs { width: 100%; }
+  .s-tab { flex: 1; padding: 9px 6px; }
+  .s-sep { display: none; }
+  .s-input { flex: 1 1 60%; padding: 10px 8px; font-size: 14px; }
+  .s-btn { padding: 11px 20px; }
+  .nav-burger { display: flex; }
+  .sec-dark { padding: 80px 20px; }
+  .sec-head-row { gap: 16px; }
+  .listings-grid, .steps-grid { grid-template-columns: 1fr; margin-top: 40px; gap: 14px; }
+  .l-img { height: 210px; }
+  .l-price { font-size: 21px; }
+  .l-spec { font-size: 12px; gap: 5px; }
+  .l-spec-x { display: none; }
+  .feat-card { height: 460px; border-radius: 18px; margin-top: 14px; }
+  .feat-over { padding: 24px; }
+  .feat-details { gap: 20px; }
+  .feat-dv { font-size: 15px; }
+  .feat-row .btn-light { width: 100%; justify-content: center; }
+  .step, .srv { padding: 26px 22px; }
+  .about-row { margin-top: 40px; }
+  .about-stats { gap: 24px; }
+  .astat-n { font-size: 34px; }
+  .team-grid { gap: 10px; }
+  .tm-photo { height: 170px; }
+  .tm-info { padding: 12px 14px 14px; }
+  .modal-card { flex-direction: column; max-width: 360px; }
+  .modal-photo-wrap { width: 100%; height: auto; }
+  .modal-body { padding: 24px 22px; }
+  .site-footer { padding: 56px 20px 28px; text-align: left; }
+  .foot-top { grid-template-columns: 1fr; gap: 32px; }
+  .foot-bot { flex-direction: column; align-items: flex-start; }
+}
+
+/* ============================================================
+  ✏️ ПОП-АП ФОРМА
+============================================================ */
+.pop-overlay {
+  position: fixed; inset: 0; z-index: 500;
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  background: rgba(8,8,8,.72);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  opacity: 0; visibility: hidden;
+  transition: opacity .3s ease, visibility .3s;
+}
+.pop-overlay.open { opacity: 1; visibility: visible; }
+.pop-card {
+  position: relative;
+  display: grid; grid-template-columns: 1fr 1.05fr;
+  width: 100%; max-width: 860px; max-height: calc(100vh - 40px);
+  overflow: hidden;
+  border-radius: 28px;
+  background: #151412;
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: 0 40px 100px rgba(0,0,0,.6), inset 0 1px 0 rgba(255,255,255,.08);
+  transform: translateY(18px) scale(.98);
+  transition: transform .35s ease;
+}
+.pop-overlay.open .pop-card { transform: none; }
+.pop-close {
+  position: absolute; top: 16px; right: 16px; z-index: 3;
+  width: 40px; height: 40px; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.18);
+  background: rgba(15,14,12,.55); color: #fff; font-size: 15px; cursor: pointer;
+  transition: background .2s;
+}
+.pop-close:hover { background: rgba(255,255,255,.15); }
+
+/* Фото збоку */
+.pop-photo { position: relative; min-height: 520px; background: #2a2825; }
+.pop-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.pop-photo::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 45%);
+}
+.pop-photo-cap {
+  position: absolute; left: 18px; right: 18px; bottom: 18px; z-index: 1;
+  display: flex; align-items: center; gap: 10px;
+  padding: 12px 16px; border-radius: 14px;
+  font-size: 13px; color: #fff;
+  background: linear-gradient(160deg, rgba(255,255,255,.22), rgba(255,255,255,.06));
+  border: 1px solid rgba(255,255,255,.3);
+  backdrop-filter: blur(14px) saturate(160%); -webkit-backdrop-filter: blur(14px) saturate(160%);
+}
+.pop-stars { color: var(--accent); letter-spacing: 0.02em; font-size: 12px; }
+
+/* Форма */
+.pop-body { padding: 48px 44px 40px; display: flex; flex-direction: column; justify-content: center; overflow-y: auto; }
+.pop-form, .pop-done { display: flex; flex-direction: column; }
+.pop-form[hidden], .pop-done[hidden], .pop-ctx[hidden] { display: none; }
+.pop-k { font-size: 14px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #fff; margin-bottom: 18px; }
+.pop-k span { color: var(--accent); }
+.pop-title { font-size: clamp(26px, 3vw, 34px); color: #fff; }
+.pop-sub { margin-top: 12px; font-size: 15px; color: rgba(255,255,255,.62); }
+.pop-ctx {
+  align-self: flex-start; margin-top: 18px;
+  font-size: 13px; color: #fff;
+  padding: 7px 14px; border-radius: 100px;
+  background: rgba(232,75,28,.14); border: 1px solid rgba(232,75,28,.45);
+}
+.pop-field { display: flex; flex-direction: column; gap: 8px; margin-top: 20px; }
+.pop-field > span { font-size: 13px; color: rgba(255,255,255,.6); }
+.pop-field + .pop-field { margin-top: 14px; }
+.pop-inp {
+  width: 100%;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 14px;
+  padding: 15px 18px;
+  font-family: var(--font); font-size: 16px; font-weight: 500; letter-spacing: 0.02em;
+  color: #fff; outline: none;
+  transition: border-color .2s, background .2s;
+}
+.pop-inp::placeholder { color: rgba(255,255,255,.4); }
+.pop-inp:focus { border-color: rgba(255,255,255,.5); background: rgba(255,255,255,.09); }
+.pop-inp.error { border-color: #ff7a7a; }
+.pop-btn { margin-top: 26px; width: 100%; padding: 16px 28px; }
+.pop-note { margin-top: 14px; font-size: 12px; color: rgba(255,255,255,.4); text-align: center; }
+
+.pop-done { align-items: flex-start; }
+.pop-done-ico {
+  width: 56px; height: 56px; border-radius: 50%; margin-bottom: 22px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--accent); color: #fff;
+  box-shadow: 0 10px 30px -8px rgba(232,75,28,.7);
+}
+
+/* Картки об'єктів тепер клікабельні */
+.l-card[data-popup] { cursor: pointer; }
+
+@media (max-width: 768px) {
+  .pop-overlay { padding: 0; align-items: flex-end; }
+  .pop-card {
+    grid-template-columns: 1fr; max-height: 92vh; max-height: 92svh;
+    border-radius: 24px 24px 0 0; overflow-y: auto;
+    transform: translateY(40px);
+  }
+  .pop-photo { min-height: 0; height: 190px; }
+  .pop-body { padding: 26px 20px max(28px, env(safe-area-inset-bottom)); overflow: visible; }
+  .pop-inp { font-size: 16px; } /* 16px — щоб iOS не збільшував сторінку при фокусі */
+}
+@media (prefers-reduced-motion: reduce) {
+  .pop-overlay, .pop-card { transition: none; }
+}
+
+/* ============================================================
+  ✏️ ПОП-АП ЮРИДИЧНИХ ДОКУМЕНТІВ
+============================================================ */
+.lg-overlay {
+  position: fixed; inset: 0; z-index: 600;
+  display: flex; align-items: center; justify-content: center; padding: 20px;
+  background: rgba(8,8,8,.75);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  opacity: 0; visibility: hidden; transition: opacity .3s, visibility .3s;
+}
+.lg-overlay.open { opacity: 1; visibility: visible; }
+.lg-card {
+  position: relative; display: flex; flex-direction: column;
+  width: 100%; max-width: 820px; height: min(86vh, 860px);
+  background: #151412; border: 1px solid rgba(255,255,255,.12); border-radius: 28px;
+  box-shadow: 0 40px 100px rgba(0,0,0,.6), inset 0 1px 0 rgba(255,255,255,.08);
+  overflow: hidden;
+  transform: translateY(18px) scale(.98); transition: transform .35s ease;
+}
+.lg-overlay.open .lg-card { transform: none; }
+.lg-head {
+  display: flex; align-items: center; gap: 12px;
+  padding: 16px 16px 16px 20px; border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.lg-tabs { flex: 1; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.lg-tabs::-webkit-scrollbar { display: none; }
+.lg-tab {
+  flex-shrink: 0; font-family: var(--font); font-size: 13px; font-weight: 500; letter-spacing: 0.02em;
+  color: rgba(255,255,255,.7); background: rgba(255,255,255,.05);
+  border: 1px solid rgba(255,255,255,.12); border-radius: 100px;
+  padding: 9px 16px; cursor: pointer; transition: background .2s, color .2s, border-color .2s;
+}
+.lg-tab:hover { color: #fff; border-color: rgba(255,255,255,.3); }
+.lg-tab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.lg-close { position: static; flex-shrink: 0; }
+
+.lg-body { flex: 1; overflow-y: auto; padding: 36px 44px 48px; overscroll-behavior: contain; }
+.lg-doc[hidden] { display: none; }
+.lg-title { font-size: clamp(26px, 3vw, 36px); color: #fff; }
+.lg-date { margin-top: 12px; font-size: 13px; color: rgba(255,255,255,.45); }
+.lg-doc h3 {
+  margin-top: 30px; margin-bottom: 10px;
+  font-size: 18px; font-weight: 500; letter-spacing: 0.05em; line-height: 1; color: #fff;
+}
+.lg-doc p, .lg-doc li, .lg-doc dd { font-size: 15px; color: rgba(255,255,255,.72); }
+.lg-doc p + p { margin-top: 10px; }
+.lg-doc ul + p, .lg-doc p + ul { margin-top: 12px; }
+.lg-doc ul { margin: 8px 0 0; padding-left: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.lg-doc li { position: relative; padding-left: 20px; }
+.lg-doc li::before {
+  content: ''; position: absolute; left: 2px; top: .55em;
+  width: 6px; height: 6px; border-radius: 50%; background: var(--accent);
+}
+.lg-doc b { color: #fff; font-weight: 600; }
+.lg-doc a, .pop-note a { color: #fff; text-decoration: underline; text-decoration-color: rgba(255,255,255,.35); text-underline-offset: 3px; }
+.lg-doc a:hover, .pop-note a:hover { text-decoration-color: var(--accent); }
+.lg-dl { display: grid; grid-template-columns: 200px 1fr; gap: 10px 20px; margin-top: 6px; }
+.lg-dl dt { font-size: 14px; color: rgba(255,255,255,.45); }
+.lg-dl dd { margin: 0; }
+/* Місця, які треба заповнити своїми даними */
+.ph { color: #ffb08f; border-bottom: 1px dashed rgba(255,176,143,.6); }
+
+@media (max-width: 768px) {
+  .lg-overlay { padding: 0; align-items: flex-end; }
+  .lg-card { height: 92vh; height: 92svh; border-radius: 24px 24px 0 0; transform: translateY(40px); }
+  .lg-head { padding: 12px 12px 12px 14px; }
+  .lg-body { padding: 26px 20px max(36px, env(safe-area-inset-bottom)); }
+  .lg-dl { grid-template-columns: 1fr; gap: 2px; }
+  .lg-dl dd { margin-bottom: 10px; }
+}
+@media (prefers-reduced-motion: reduce) { .lg-overlay, .lg-card { transition: none; } }
+
+/* ============================================================
+  ✏️ ЄДИНИЙ СТИЛЬ САЙТУ — шрифт, заголовки, кнопки
+  Шрифт: Onest (без засічок, створений з урахуванням кирилиці)
+============================================================ */
+:root { --font: 'Raleway', system-ui, -apple-system, 'Segoe UI', sans-serif; --accent-hover: #d23f13; }
+
+html, body, button, input, select, textarea { font-family: var(--font); }
+/* Raleway за замовчуванням має «старовинні» цифри, що стрибають по висоті — вмикаємо рівні */
+html { font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1; }
+/* Текст: Medium, міжлітерна відстань 2% */
+body { font-weight: 500; letter-spacing: 0.02em; }
+
+/* --- Заголовки: Medium, міжлітерна відстань 5% --- */
+.hero-title, .hero-overlay-title, .sec-title, .feat-title, .svc-t, .cta-title,
+.modal-name, .mob-links a, .astat-n, .l-price, .tl-n, .bh-title, .about-sub, .pop-title, .lg-title {
+  font-family: var(--font);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 1;            /* заголовки: 100% */
+}
+/* Текст: міжрядкова відстань 130% */
+body { line-height: 1.3; }
+.hero-title { line-height: 1; max-width: 960px; font-size: clamp(42px, 6vw, 88px); }
+@media (max-width: 768px) { .hero-title { font-size: clamp(32px, 9.5vw, 44px); } }
+.hero-title em { font-style: normal; font-weight: 500; color: rgba(255,255,255,.72); }
+.hero-overlay-title { line-height: 1; }
+.sec-title { line-height: 1; }
+.about-sub { font-style: normal; }
+.rev-txt { font-weight: 500; font-size: 18px; line-height: 1.3; letter-spacing: 0.02em; }
+.nav-logo, .foot-logo { font-weight: 600; letter-spacing: 0.05em; }
+
+/* Підписи, назви кроків, імена — напівжирні */
+.tl-t, .step-t, .tm-name, .rev-name, .l-street, .svc-p, .foot-ht, .proof-num strong { font-weight: 600; }
+
+/* --- КНОПКИ: одна форма для всіх --- */
+.nav-cta a, .btn-hero, .s-btn, .btn-light, .tl-btn, .svc-btn, .cta-sub-btn, .mob-cta, .btn-primary {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  font-family: var(--font);
+  font-size: 15px; font-weight: 600; line-height: 1.3;
+  letter-spacing: 0.02em; text-transform: none;
+  padding: 14px 28px;
+  border-radius: 100px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none; white-space: nowrap; cursor: pointer;
+  box-shadow: 0 8px 24px -8px rgba(232,75,28,.55);
+  backdrop-filter: none; -webkit-backdrop-filter: none;
+  opacity: 1;
+  transition: background .2s, border-color .2s, transform .2s, box-shadow .2s;
+}
+.nav-cta a:hover, .btn-hero:hover, .s-btn:hover, .btn-light:hover, .tl-btn:hover,
+.svc-btn:hover, .cta-sub-btn:hover, .mob-cta:hover, .btn-primary:hover {
+  background: var(--accent-hover); border-color: var(--accent-hover);
+  transform: translateY(-1px); opacity: 1;
+}
+.cta-sub-btn:disabled { opacity: .6; transform: none; }
+
+.btn-hero.w { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn-hero.w:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+
+/* Другорядна кнопка — та сама форма, прозора з білою рамкою */
+.btn-hero.g {
+  background: rgba(255,255,255,.06);
+  border-color: rgba(255,255,255,.55);
+  box-shadow: none;
+}
+.btn-hero.g:hover { background: rgba(255,255,255,.16); border-color: #fff; }
+
+/* Розміри в конкретних місцях */
+.nav-cta a { padding: 11px 22px; font-size: 14px; }
+.s-btn { padding: 12px 26px; }
+.tl-btn { position: absolute; left: 20px; right: 20px; bottom: 20px; }
+.svc-btn { margin-top: 28px; }
+.cta-sub-btn, .mob-cta { width: 100%; padding: 16px 28px; }
+
+/* Текстові посилання зі стрілкою — однакові всюди */
+.arr-link { font-family: var(--font); font-size: 14px; font-weight: 600; letter-spacing: 0.02em; text-transform: none; }
+
+@media (max-width: 768px) {
+  .btn-hero { flex: 1; padding: 13px 14px; font-size: 14px; }
+  .s-btn { padding: 11px 20px; }
+  .rev-txt { font-size: 17px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ===========================================================
+  🔒 НЕ ЧІПАЙ — scroll-container START
+  Все всередині цього div — sticky анімація
+=========================================================== -->
+<div id="scroll-container">
+
+  <!-- HERO — відео на весь екран -->
+  <section id="hero">
+    <!-- 🔒 НЕ ЧІПАЙ src і id — тільки заміни URL відео -->
+    <video
+      id="bg-video"
+      src="https://res.cloudinary.com/saqtvvrp/video/upload/v1793286811/modern-luxury-villa-lighting-tra-63d9fb3c-1080p_xNg94veR_1.mp4"
+      poster="https://res.cloudinary.com/saqtvvrp/video/upload/so_0,f_auto,q_auto,w_1600/v1793286811/modern-luxury-villa-lighting-tra-63d9fb3c-1080p_xNg94veR_1.jpg"
+      muted
+      playsinline
+      preload="auto"
+    ></video>
+
+    <!-- ✏️ МІНЯЙ — навігація -->
+    <nav id="hero-nav">
+      <a href="#" class="nav-logo">Кварта<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#catalog">Каталог</a></li>
+        <li><a href="#how">Як працюємо</a></li>
+        <li><a href="#services">Послуги</a></li>
+        <li><a href="#about">Про нас</a></li>
+        <li><a href="#reviews">Відгуки</a></li>
+        <li><a href="#footer">Контакти</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="#cta" data-popup="Підбір житла">Підібрати житло</a>
+      </div>
+      <button type="button" class="nav-burger" id="burger" aria-label="Відкрити меню" aria-expanded="false" aria-controls="mobMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- ✏️ МІНЯЙ — заголовок і підтекст -->
+    <!-- 🔒 НЕ ЧІПАЙ id="hero-content" -->
+    <div id="hero-content">
+      <p class="hero-label">Київ та передмістя</p>
+      <h1 class="hero-title">
+        Знайдемо дім,<br>
+        <em>а не метри</em>
+      </h1>
+      <p class="hero-sub">Підбираємо, перевіряємо і супроводжуємо угоду. Ви бачите всю правду про об'єкт ще до перегляду.</p>
+
+      <!-- ✏️ Рейтинг + кнопки -->
+      <div class="hero-row">
+        <div class="hero-proof">
+          <div class="proof-pill">
+            <div class="proof-avatars">
+              <div class="proof-av"><img width="64" height="64" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&w=64&q=80" alt=""></div>
+              <div class="proof-av"><img width="64" height="64" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&w=64&q=80" alt=""></div>
+              <div class="proof-av"><img width="64" height="64" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&w=64&q=80" alt=""></div>
+              <div class="proof-av"><img width="64" height="64" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&w=64&q=80" alt=""></div>
+            </div>
+            <div class="proof-txt">
+              <div class="proof-stars" aria-label="5 зірок">★★★★★</div>
+              <strong>4.9 / 5</strong> — оцінка
+            </div>
+          </div>
+          <div class="proof-sep"></div>
+          <div class="proof-num"><strong>640+</strong> угод закрито</div>
+        </div>
+        <div class="hero-btns">
+          <a href="#catalog" class="btn-hero w" data-popup="Каталог об'єктів">Переглянути каталог</a>
+          <a href="#cta" class="btn-hero g" data-popup="Підбір житла">Отримати підбір</a>
+        </div>
+      </div>
+
+      <!-- ✏️ Пошук -->
+      <div class="search-box">
+        <div class="s-tabs" role="tablist">
+          <button type="button" class="s-tab on" role="tab" aria-selected="true">Купити</button>
+          <button type="button" class="s-tab" role="tab" aria-selected="false">Оренда</button>
+          <button type="button" class="s-tab" role="tab" aria-selected="false">Продати</button>
+        </div>
+        <div class="s-sep"></div>
+        <input class="s-input" id="s-input" type="text" placeholder="Район, вулиця або ЖК…" aria-label="Район, вулиця або ЖК">
+        <button type="button" class="s-btn" id="s-btn" data-popup="search">Знайти</button>
+      </div>
+    </div>
+
+    <!-- scroll індикатор — можна прибрати -->
+    <div id="scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+
+    <!-- ✏️ МІНЯЙ — текст що з'являється в середині скролу
+         Видно: 35% → 67% (поки відео ще грає, перший текст вже зник)
+         Можна додати скільки завгодно рядків всередині -->
+    <div id="hero-overlay">
+      <p class="hero-overlay-label">640+ угод · оцінка 4.9 / 5</p>
+      <h2 class="hero-overlay-title">Без сюрпризів<br>і прихованих<br>платежів</h2>
+    </div>
+  </section>
+
+</div>
+<!-- ===========================================================
+  🔒 НЕ ЧІПАЙ — scroll-container END
+=========================================================== -->
+
+
+<!-- ===========================================================
+  ✏️ СЕКЦІЯ 2 — Каталог + Рекомендуємо (фон: фото каталогу)
+  Щоб додати об'єкт — скопіюй один <article class="l-card" data-popup="card" tabindex="0" role="button" aria-label="Залишити заявку на цей об'єкт">
+=========================================================== -->
+<section class="sec-dark bg-sec bg-catalog" id="catalog">
+  <div class="sec-header sec-head-row">
+    <h2 class="sec-title">Каталог</h2>
+    <div>
+      <p class="sec-desc">Кожен оглянутий агентом особисто й перевірений юристом.</p>
+      <p style="margin-top:14px"><a href="#" class="arr-link" data-popup="Каталог об'єктів">Увесь каталог <svg width="14" height="14" fill="none" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13L13 3M13 3H7M13 3V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+    </div>
+  </div>
+
+  <div class="listings-grid">
+    <article class="l-card" data-popup="card" tabindex="0" role="button" aria-label="Залишити заявку на цей об'єкт">
+      <div class="l-img">
+        <img width="800" height="600" src="https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1000/v1793037539/1_%D0%BA%D0%B0%D1%80%D1%82%D0%BA%D0%B0.jpg" alt="2 кімн., 58 м² · вул. Хорива" loading="lazy">
+        <div class="l-badges"><span class="l-badge v">Юридично перевірено</span><span class="l-badge">2018 р.</span></div>
+        <button type="button" class="l-fav" aria-label="Додати в обране" aria-pressed="false"><svg width="15" height="15" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" stroke="currentColor" stroke-width="1.5"/></svg></button>
+      </div>
+      <div class="l-specs">
+        <div class="l-spec"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18V8m0 6h18m0 4v-6a3 3 0 00-3-3h-7v6M7 12.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>2 кімн.</div>
+        <div class="l-spec"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M4 10h6v10" stroke="currentColor" stroke-width="1.5"/></svg>58 м²</div>
+        <div class="l-spec"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>7 хв<span class="l-spec-x"> до метро</span></div>
+      </div>
+      <div class="l-body">
+        <div class="l-price">$92 000</div>
+        <div class="l-addr"><div class="l-street">вул. Хорива</div><div class="l-city">Поділ, Київ</div></div>
+      </div>
+    </article>
+    <article class="l-card" data-popup="card" tabindex="0" role="button" aria-label="Залишити заявку на цей об'єкт">
+      <div class="l-img">
+        <img width="800" height="600" src="https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1000/v1793037553/2_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg" alt="3 кімн., 88 м² · ЖК River Park" loading="lazy">
+        <div class="l-badges"><span class="l-badge v">Нова</span><span class="l-badge">2022 р.</span></div>
+        <button type="button" class="l-fav" aria-label="Додати в обране" aria-pressed="false"><svg width="15" height="15" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" stroke="currentColor" stroke-width="1.5"/></svg></button>
+      </div>
+      <div class="l-specs">
+        <div class="l-spec"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18V8m0 6h18m0 4v-6a3 3 0 00-3-3h-7v6M7 12.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>3 кімн.</div>
+        <div class="l-spec"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M4 10h6v10" stroke="currentColor" stroke-width="1.5"/></svg>88 м²</div>
+        <div class="l-spec"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>3 хв<span class="l-spec-x"> до метро</span></div>
+      </div>
+      <div class="l-body">
+        <div class="l-price">$185 000</div>
+        <div class="l-addr"><div class="l-street">ЖК River Park</div><div class="l-city">Печерськ, Київ</div></div>
+      </div>
+    </article>
+    <article class="l-card" data-popup="card" tabindex="0" role="button" aria-label="Залишити заявку на цей об'єкт">
+      <div class="l-img">
+        <img width="800" height="600" src="https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1000/v1793037566/3_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg" alt="2 кімн., 72 м² · Шевченківський район" loading="lazy">
+        <div class="l-badges"><span class="l-badge v">Юридично перевірено</span><span class="l-badge">Оренда</span></div>
+        <button type="button" class="l-fav" aria-label="Додати в обране" aria-pressed="false"><svg width="15" height="15" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" stroke="currentColor" stroke-width="1.5"/></svg></button>
+      </div>
+      <div class="l-specs">
+        <div class="l-spec"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18V8m0 6h18m0 4v-6a3 3 0 00-3-3h-7v6M7 12.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>2 кімн.</div>
+        <div class="l-spec"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M4 10h6v10" stroke="currentColor" stroke-width="1.5"/></svg>72 м²</div>
+        <div class="l-spec"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>10 хв<span class="l-spec-x"> до метро</span></div>
+      </div>
+      <div class="l-body">
+        <div class="l-price">$1 200<small>/міс</small></div>
+        <div class="l-addr"><div class="l-street">Шевченківський район</div><div class="l-city">Київ</div></div>
+      </div>
+    </article>
+    <article class="l-card" data-popup="card" tabindex="0" role="button" aria-label="Залишити заявку на цей об'єкт">
+      <div class="l-img">
+        <img width="800" height="600" src="https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1000/v1793037580/4_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg" alt="4 кімн., 125 м² · ЖК Crystal" loading="lazy">
+        <div class="l-badges"><span class="l-badge v">Нова</span><span class="l-badge">2023 р.</span></div>
+        <button type="button" class="l-fav" aria-label="Додати в обране" aria-pressed="false"><svg width="15" height="15" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" stroke="currentColor" stroke-width="1.5"/></svg></button>
+      </div>
+      <div class="l-specs">
+        <div class="l-spec"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18V8m0 6h18m0 4v-6a3 3 0 00-3-3h-7v6M7 12.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>4 кімн.</div>
+        <div class="l-spec"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M4 10h6v10" stroke="currentColor" stroke-width="1.5"/></svg>125 м²</div>
+        <div class="l-spec"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>5 хв<span class="l-spec-x"> до метро</span></div>
+      </div>
+      <div class="l-body">
+        <div class="l-price">$310 000</div>
+        <div class="l-addr"><div class="l-street">ЖК Crystal</div><div class="l-city">Голосіїво, Київ</div></div>
+      </div>
+    </article>
+    <article class="l-card" data-popup="card" tabindex="0" role="button" aria-label="Залишити заявку на цей об'єкт">
+      <div class="l-img">
+        <img width="800" height="600" src="https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1000/v1793037590/5_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg" alt="1 кімн., 38 м² · Лівобережна" loading="lazy">
+        <div class="l-badges"><span class="l-badge v">Юридично перевірено</span><span class="l-badge">Оренда</span></div>
+        <button type="button" class="l-fav" aria-label="Додати в обране" aria-pressed="false"><svg width="15" height="15" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" stroke="currentColor" stroke-width="1.5"/></svg></button>
+      </div>
+      <div class="l-specs">
+        <div class="l-spec"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18V8m0 6h18m0 4v-6a3 3 0 00-3-3h-7v6M7 12.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>1 кімн.</div>
+        <div class="l-spec"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M4 10h6v10" stroke="currentColor" stroke-width="1.5"/></svg>38 м²</div>
+        <div class="l-spec"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>2 хв<span class="l-spec-x"> до метро</span></div>
+      </div>
+      <div class="l-body">
+        <div class="l-price">$800<small>/міс</small></div>
+        <div class="l-addr"><div class="l-street">Лівобережна</div><div class="l-city">Київ</div></div>
+      </div>
+    </article>
+    <article class="l-card" data-popup="card" tabindex="0" role="button" aria-label="Залишити заявку на цей об'єкт">
+      <div class="l-img">
+        <img width="800" height="600" src="https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1000/v1793037600/6_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg" alt="2 кімн., 50 м² · Солом'янка" loading="lazy">
+        <div class="l-badges"><span class="l-badge v">Знижка</span><span class="l-badge">Вторинна</span></div>
+        <button type="button" class="l-fav" aria-label="Додати в обране" aria-pressed="false"><svg width="15" height="15" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" stroke="currentColor" stroke-width="1.5"/></svg></button>
+      </div>
+      <div class="l-specs">
+        <div class="l-spec"><svg width="18" height="18" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18V8m0 6h18m0 4v-6a3 3 0 00-3-3h-7v6M7 12.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>2 кімн.</div>
+        <div class="l-spec"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M4 10h6v10" stroke="currentColor" stroke-width="1.5"/></svg>50 м²</div>
+        <div class="l-spec"><svg width="17" height="17" fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>12 хв<span class="l-spec-x"> до метро</span></div>
+      </div>
+      <div class="l-body">
+        <div class="l-price">$74 000</div>
+        <div class="l-addr"><div class="l-street">Солом'янка</div><div class="l-city">Київ</div></div>
+      </div>
+    </article>
+  </div>
+
+  <!-- Рекомендуємо — великий об'єкт -->
+  <div class="feat-card">
+    <img width="1600" height="1067" src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&w=1600&q=80" alt="Пентхаус на Печерську з краєвидом на Дніпро" loading="lazy">
+    <div class="feat-over">
+      <div class="feat-tag">Рекомендуємо</div>
+      <h3 class="feat-title">Пентхаус із панорамним краєвидом на Дніпро</h3>
+      <div class="feat-row">
+        <div class="feat-details">
+          <div class="feat-d"><span class="feat-dl">Площа</span><span class="feat-dv">142 м²</span></div>
+          <div class="feat-d"><span class="feat-dl">Ціна</span><span class="feat-dv">$480 000</span></div>
+          <div class="feat-d"><span class="feat-dl">Рік</span><span class="feat-dv">2024</span></div>
+          <div class="feat-d"><span class="feat-dl">Район</span><span class="feat-dv">Печерськ</span></div>
+        </div>
+        <a href="#cta" class="btn-light" data-popup="Об'єкт: Пентхаус на Печерську, $480 000">Детальніше</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===========================================================
+  ✏️ СЕКЦІЯ 3 — Як працюємо (фон: фото 4 кроки)
+=========================================================== -->
+<section class="sec-dark bg-sec bg-how" id="how">
+  <div class="sec-header sec-head-row">
+    <h2 class="sec-title">Як працюємо</h2>
+    <p class="sec-desc">Без сюрпризів і прихованих платежів. Називаємо суму в договорі.</p>
+  </div>
+
+  <div class="tl-wrap">
+    <ol class="tl" style="list-style:none">
+      <li class="tl-step">
+        <div class="tl-head"><span class="tl-n">01</span><span class="tl-line" aria-hidden="true"><span class="tl-dot"></span></span></div>
+        <div class="tl-t">Знайомимося</div>
+        <p class="tl-d">Обговорюємо бюджет, побажання і строки. Безкоштовно, 20 хвилин.</p>
+      </li>
+      <li class="tl-step">
+        <div class="tl-head"><span class="tl-n">02</span><span class="tl-line" aria-hidden="true"><span class="tl-dot"></span></span></div>
+        <div class="tl-t">Підбираємо</div>
+        <p class="tl-d">Показуємо 3–5 перевірених варіантів, а не сотню випадкових.</p>
+      </li>
+      <li class="tl-step">
+        <div class="tl-head"><span class="tl-n">03</span><span class="tl-line" aria-hidden="true"><span class="tl-dot"></span></span></div>
+        <div class="tl-t">Перевіряємо</div>
+        <p class="tl-d">Юрист аналізує документи і власника. Повідомляємо про всі ризики.</p>
+      </li>
+      <li class="tl-step">
+        <div class="tl-head"><span class="tl-n">04</span><span class="tl-line" aria-hidden="true"><span class="tl-dot"></span></span></div>
+        <div class="tl-t">Супроводжуємо</div>
+        <p class="tl-d">Допомагаємо з іпотекою, договором і передачею ключів.</p>
+      </li>
+    </ol>
+
+    <div class="tl-aside">
+      <img width="880" height="600" src="https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1000/v1793037566/3_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg" alt="Світла кухня-вітальня в квартирі" loading="lazy">
+      <a href="#cta" class="tl-btn" data-popup="Підбір житла">Отримати підбір</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===========================================================
+  ✏️ СЕКЦІЯ 4 — Послуги (фон: фото послуг)
+=========================================================== -->
+<section class="sec-dark bg-sec bg-services" id="services">
+  <div class="sec-header sec-head-row">
+    <h2 class="sec-title">Послуги</h2>
+    <p class="sec-desc">Фіксована комісія в договорі — без прихованих платежів.</p>
+  </div>
+
+  <div class="svc-flow" id="svcFlow">
+    <svg class="svc-lines" id="svcLines" aria-hidden="true"></svg>
+
+    <!-- 01 Купівля -->
+    <article class="svc svc-1" id="svc1">
+      <div class="svc-bar" aria-hidden="true"><i></i><i></i><i></i><span></span></div>
+      <div class="svc-in">
+        <div class="svc-k"><svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M9 22V12h6v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> 01</div>
+        <h3 class="svc-t">Купівля</h3>
+        <div class="svc-hr"></div>
+        <p class="svc-d">Знайдемо житло під ваш бюджет і проведемо угоду безпечно. Юрист перевіряє кожен об'єкт.</p>
+        <div class="svc-p">Комісія 2% від вартості</div>
+      </div>
+    </article>
+
+    <!-- 02 Продаж -->
+    <article class="svc svc-2 lit" id="svc2">
+      <div class="svc-in">
+        <div>
+          <div class="svc-k"><svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> 02</div>
+          <h3 class="svc-t">Продаж</h3>
+          <p class="svc-d" style="margin-top:16px">Оцінимо, підготуємо та продамо за ринковою ціною. Середній термін — 45 днів.</p>
+          <div class="svc-p">Комісія 2% після угоди</div>
+        </div>
+        <div class="svc-opts" role="radiogroup" aria-label="Послуга">
+          <button type="button" class="svc-opt" role="radio" aria-checked="false"><span class="rd"></span><span class="lbl">Купівля</span><svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M9 22V12h6v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <button type="button" class="svc-opt" role="radio" aria-checked="true"><span class="rd"></span><span class="lbl">Продаж</span><svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <button type="button" class="svc-opt" role="radio" aria-checked="false"><span class="rd"></span><span class="lbl">Оренда</span><svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10H3M16 6V3M8 6V3M3 6.5C3 5.12 4.12 4 5.5 4h13C19.88 4 21 5.12 21 6.5v13c0 1.38-1.12 2.5-2.5 2.5h-13C4.12 22 3 20.88 3 19.5v-13z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        </div>
+      </div>
+    </article>
+
+    <!-- 03 Оренда -->
+    <article class="svc svc-3 lit" id="svc3">
+      <div class="svc-in">
+        <div class="svc-txt">
+          <div class="svc-k"><svg fill="none" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10H3M16 6V3M8 6V3M3 6.5C3 5.12 4.12 4 5.5 4h13C19.88 4 21 5.12 21 6.5v13c0 1.38-1.12 2.5-2.5 2.5h-13C4.12 22 3 20.88 3 19.5v-13z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> 03</div>
+          <h3 class="svc-t">Оренда</h3>
+          <p class="svc-d" style="margin-top:16px">Підберемо надійних орендарів або знайдемо житло без зайвих клопотів.</p>
+          <div class="svc-p">50% першого місяця</div>
+          <a href="#cta" class="svc-btn" data-popup="Послуга: Оренда">Отримати підбір</a>
+        </div>
+        <div class="svc-img"><img width="600" height="600" src="https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1000/v1793037590/5_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg" alt="Вітальня в орендованій квартирі" loading="lazy"></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+<!-- ===========================================================
+  ✏️ СЕКЦІЯ 5 — Про нас + команда
+  Біографії команди — в скрипті нижче (масив TEAM)
+=========================================================== -->
+<section class="sec-dark about-sec" id="about">
+  <div class="sec-header sec-head-row">
+    <div>
+      <h2 class="sec-title">Про нас</h2>
+      <p class="about-sub">Угода без стресу</p>
+    </div>
+    <p class="sec-desc">Агенція заснована у 2018 році. Починали вдвох — сьогодні нас 12.</p>
+  </div>
+  <div class="about-row">
+    <div class="about-text">
+      <p>Кварта виникла з простої ідеї: угода з нерухомістю не повинна бути стресом. Ми перевіряємо кожен об'єкт юридично ще до того, як показуємо його клієнту, — і називаємо всі мінуси відверто. Без тиску, без прихованих платежів.</p>
+      <p>За 8 років закрили 640+ угод у Києві та передмісті. Кожен наш агент спеціалізується на конкретному районі — це означає реальне знання ринку, а не пошук по базі.</p>
+      <div class="about-stats">
+        <div class="astat"><span class="astat-n">8</span><span class="astat-l">років на ринку</span></div>
+        <div class="astat"><span class="astat-n">640+</span><span class="astat-l">угод закрито</span></div>
+        <div class="astat"><span class="astat-n">12</span><span class="astat-l">спеціалістів</span></div>
+      </div>
+    </div>
+    <div class="team-grid">
+      <button type="button" class="tm-card" onclick="openTeam(0)">
+        <div class="tm-photo"><img width="900" height="675" src="https://res.cloudinary.com/saqtvvrp/image/upload/e_upscale/c_fill,ar_4:3,g_face/c_limit,w_900/e_sharpen:60/q_auto:best,f_auto/v1793132500/%D0%97%D0%B0%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D1%86%D1%8F.jpg" alt="Олена Коваленко" style="object-position:center center" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('e_upscale/','')"></div>
+        <div class="tm-info"><div class="tm-name">Олена Коваленко</div><div class="tm-role">Засновниця, юрист</div><div class="tm-hint">Детальніше</div></div>
+      </button>
+      <button type="button" class="tm-card" onclick="openTeam(1)">
+        <div class="tm-photo"><img width="900" height="675" src="https://res.cloudinary.com/saqtvvrp/image/upload/e_upscale/c_fill,ar_4:3,g_face/c_limit,w_900/e_sharpen:60/q_auto:best,f_auto/v1793132512/%D0%BF%D1%80%D0%BE%D0%B2%D1%96%D0%B4%D0%BD%D0%B8%D0%B9_%D0%B0%D0%B3%D0%B5%D0%BD%D1%82.jpg" alt="Тарас Мельник" style="object-position:center center" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('e_upscale/','')"></div>
+        <div class="tm-info"><div class="tm-name">Тарас Мельник</div><div class="tm-role">Провідний агент</div><div class="tm-hint">Детальніше</div></div>
+      </button>
+      <button type="button" class="tm-card" onclick="openTeam(2)">
+        <div class="tm-photo"><img width="900" height="675" src="https://res.cloudinary.com/saqtvvrp/image/upload/e_upscale/c_fill,ar_4:3,g_face/c_limit,w_900/e_sharpen:60/q_auto:best,f_auto/v1793132523/%D0%90%D0%B3%D0%B5%D0%BD%D1%82_%D0%B7_%D0%BE%D1%80%D0%B5%D0%BD%D0%B4%D0%B8.jpg" alt="Соня Гринчишин" style="object-position:center center" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('e_upscale/','')"></div>
+        <div class="tm-info"><div class="tm-name">Соня Гринчишин</div><div class="tm-role">Агент з оренди</div><div class="tm-hint">Детальніше</div></div>
+      </button>
+      <button type="button" class="tm-card" onclick="openTeam(3)">
+        <div class="tm-photo"><img width="900" height="675" src="https://res.cloudinary.com/saqtvvrp/image/upload/e_upscale/c_fill,ar_4:3,g_face/c_limit,w_900/e_sharpen:60/q_auto:best,f_auto/v1793132531/%D0%86%D0%BF%D0%BE%D1%82%D0%B5%D1%87%D0%BD%D0%B8%D0%B9_%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82.jpg" alt="Дмитро Бойко" style="object-position:center center" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('e_upscale/','')"></div>
+        <div class="tm-info"><div class="tm-name">Дмитро Бойко</div><div class="tm-role">Іпотечний консультант</div><div class="tm-hint">Детальніше</div></div>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===========================================================
+  ✏️ СЕКЦІЯ 6 — Відгуки (фон: фото відгуків)
+=========================================================== -->
+<section class="sec-dark bg-sec bg-reviews" id="reviews">
+  <div class="sec-header sec-head-row">
+    <h2 class="sec-title">Відгуки</h2>
+    <a href="#" class="arr-link">Усі відгуки <svg width="14" height="14" fill="none" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13L13 3M13 3H7M13 3V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+  </div>
+  <div class="rev-grid">
+    <article class="rev-card lg">
+      <div class="rev-img">
+        <img width="600" height="400" src="https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1000/v1793037539/1_%D0%BA%D0%B0%D1%80%D1%82%D0%BA%D0%B0.jpg" alt="2-кімнатна · Поділ" loading="lazy">
+        <span class="rev-lbl lg-pill">2-кімнатна · Поділ</span>
+      </div>
+      <div class="rev-body">
+        <div class="rev-stars" aria-label="Оцінка 5 з 5">★★★★★</div>
+        <p class="rev-txt">Боялися іпотеки, але Дмитро розписав кожен крок. Ключі отримали за шість тижнів — навіть не сподівалися.</p>
+        <div class="rev-au"><div class="rev-av lg-pill">ДМ</div><div><div class="rev-name">Дмитро</div><div class="rev-deal">Купівля, $92 000</div></div></div>
+      </div>
+    </article>
+    <article class="rev-card lg">
+      <div class="rev-img">
+        <img width="600" height="400" src="https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1000/v1793037580/4_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg" alt="3-кімнатна · Печерськ" loading="lazy">
+        <span class="rev-lbl lg-pill">3-кімнатна · Печерськ</span>
+      </div>
+      <div class="rev-body">
+        <div class="rev-stars" aria-label="Оцінка 5 з 5">★★★★★</div>
+        <p class="rev-txt">Квартиру продали за 38 днів і навіть дорожче, ніж розраховували. Ніхто не тиснув і не поспішав.</p>
+        <div class="rev-au"><div class="rev-av lg-pill">ІС</div><div><div class="rev-name">Ірина</div><div class="rev-deal">Продаж, $185 000</div></div></div>
+      </div>
+    </article>
+    <article class="rev-card lg">
+      <div class="rev-img">
+        <img width="600" height="400" src="https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1000/v1793037590/5_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg" alt="2-кімнатна · Шевченківський" loading="lazy">
+        <span class="rev-lbl lg-pill">2-кімнатна · Шевченківський</span>
+      </div>
+      <div class="rev-body">
+        <div class="rev-stars" aria-label="Оцінка 5 з 5">★★★★★</div>
+        <p class="rev-txt">Вперше орендував квартиру, де все збіглося з описом. Агент попередила навіть про шум з вулиці.</p>
+        <div class="rev-au"><div class="rev-av lg-pill">МК</div><div><div class="rev-name">Максим</div><div class="rev-deal">Оренда, $1 200/міс</div></div></div>
+      </div>
+    </article>
+    <article class="rev-card lg">
+      <div class="rev-img">
+        <img width="600" height="400" src="https://res.cloudinary.com/saqtvvrp/image/upload/f_auto,q_auto,w_1000/v1793037566/3_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg" alt="4-кімнатна · Голосіїво" loading="lazy">
+        <span class="rev-lbl lg-pill">4-кімнатна · Голосіїво</span>
+      </div>
+      <div class="rev-body">
+        <div class="rev-stars" aria-label="Оцінка 5 з 5">★★★★★</div>
+        <p class="rev-txt">Шукали великий варіант для родини. Тарас показав саме те, що потрібно, без зайвих дзвінків.</p>
+        <div class="rev-au"><div class="rev-av lg-pill">ОП</div><div><div class="rev-name">Оксана та Петро</div><div class="rev-deal">Купівля, $310 000</div></div></div>
+      </div>
+    </article>
+    <article class="rev-card lg">
+      <div class="rev-img">
+        <img width="600" height="400" src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&w=600&q=75" alt="1-кімнатна · Лівобережна" loading="lazy">
+        <span class="rev-lbl lg-pill">1-кімнатна · Лівобережна</span>
+      </div>
+      <div class="rev-body">
+        <div class="rev-stars" aria-label="Оцінка 5 з 5">★★★★★</div>
+        <p class="rev-txt">Переїхав із іншого міста. Соня підібрала квартиру дистанційно — я лише приїхав підписати договір.</p>
+        <div class="rev-au"><div class="rev-av lg-pill">ДБ</div><div><div class="rev-name">Дмитро</div><div class="rev-deal">Оренда, $800/міс</div></div></div>
+      </div>
+    </article>
+    <article class="rev-card lg">
+      <div class="rev-img">
+        <img width="600" height="400" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&w=600&q=75" alt="2-кімнатна · Солом'янка" loading="lazy">
+        <span class="rev-lbl lg-pill">2-кімнатна · Солом'янка</span>
+      </div>
+      <div class="rev-body">
+        <div class="rev-stars" aria-label="Оцінка 4 з 5">★★★★☆</div>
+        <p class="rev-txt">Продавали зі спадщини — складні документи. Юрист все розпутав, квартиру продали за три тижні.</p>
+        <div class="rev-au"><div class="rev-av lg-pill">НВ</div><div><div class="rev-name">Наталія</div><div class="rev-deal">Продаж, $74 000</div></div></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+
+
+
+<!-- ===========================================================
+  ✏️ СЕКЦІЯ 7 — Заявка на фоні «КВАРТА»
+=========================================================== -->
+<section class="brand-hero" id="cta" aria-label="Заявка">
+  <div class="cta-box">
+    <div class="cta-text">
+      <h2 class="cta-title">Розкажіть, що шукаєте</h2>
+      <p class="cta-sub">Передзвонимо протягом 30 хвилин у робочий час і підберемо варіанти під ваш запит.</p>
+    </div>
+    <div class="cta-form">
+      <input class="cta-inp" id="cta-name" type="text" placeholder="Ваше ім'я" aria-label="Ваше ім'я" autocomplete="name">
+      <input class="cta-inp" id="cta-tel" type="tel" placeholder="+38 (0__) ___-__-__" aria-label="Телефон" autocomplete="tel">
+      <select class="cta-sel" id="cta-sel" aria-label="Що цікавить">
+        <option value="" disabled selected>Що цікавить?</option>
+        <option>Купити квартиру</option>
+        <option>Продати квартиру</option>
+        <option>Орендувати житло</option>
+        <option>Здати в оренду</option>
+      </select>
+      <button type="button" class="cta-sub-btn" id="cta-btn">Залишити заявку</button>
+      <p class="cta-note">Передзвонимо протягом 30 хв у робочий час</p>
+    </div>
+  </div>
+
+  <div class="bh-title-wrap">
+    <h2 class="bh-title" aria-label="КВАРТА">
+      <span aria-hidden="true">К</span>
+      <span aria-hidden="true">В</span>
+      <span aria-hidden="true">А</span>
+      <span aria-hidden="true">Р</span>
+      <span aria-hidden="true">Т</span>
+      <span aria-hidden="true">А</span>
+    </h2>
+  </div>
+
+  <div class="bh-footer">
+    <div class="bh-tagline">Новий стандарт<br>сучасного життя</div>
+    <div class="bh-location">Київ, Україна</div>
+  </div>
+</section>
+
+
+<!-- ===========================================================
+  ✏️ ПІДВАЛ — повний, як в оригіналі
+=========================================================== -->
+<footer class="site-footer" id="footer">
+  <div class="foot-top">
+    <div>
+      <div class="foot-logo">Кварта<span>.</span></div>
+      <p class="foot-desc">Агенція нерухомості в Києві. Підбираємо, перевіряємо і супроводжуємо угоду від першого дзвінка до ключів.</p>
+    </div>
+    <div>
+      <p class="foot-ht">Послуги</p>
+      <ul class="foot-ul">
+        <li><a href="#services" data-popup="Послуга: Купівля">Купівля</a></li>
+        <li><a href="#services" data-popup="Послуга: Продаж">Продаж</a></li>
+        <li><a href="#services" data-popup="Послуга: Оренда">Оренда</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="foot-ht">Компанія</p>
+      <ul class="foot-ul">
+        <li><a href="#about">Про нас</a></li>
+        <li><a href="#about">Команда</a></li>
+        <li><a href="#" data-legal="privacy">Політика конфіденційності</a></li>
+        <li><a href="#" data-legal="terms">Умови використання</a></li>
+        <li><a href="#" data-legal="legal">Правова інформація</a></li>
+        <li><a href="#" data-legal="cookies">Політика файлів cookie</a></li>
+        <li><a href="#cta" data-popup="Зв'язок з командою">Контакти</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="foot-ht">Контакти</p>
+      <ul class="foot-ul">
+        <li><a href="tel:+380440000000">+38 (044) 000-00-00</a></li>
+        <li><a href="mailto:hello@kvarta.ua">hello@kvarta.ua</a></li>
+        <li><span>пн–пт 9:00–19:00</span></li>
+        <li><span>сб 10:00–15:00</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bot">
+    <p class="foot-copy">© Кварта, 2026. Усі права захищено.</p>
+    <div class="foot-soc">
+        <a href="#" class="soc-btn" aria-label="Instagram">ig</a>
+        <a href="#" class="soc-btn" aria-label="Telegram">tg</a>
+        <a href="#" class="soc-btn" aria-label="Viber">vb</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ===========================================================
+  ✏️ МОБІЛЬНЕ МЕНЮ (бургер) — з контактами
+=========================================================== -->
+<div class="mob-menu" id="mobMenu" aria-hidden="true">
+  <div>
+    <div class="mob-top">
+      <a href="#" class="nav-logo">Кварта<span>.</span></a>
+      <button type="button" class="mob-close" id="mobClose" aria-label="Закрити меню">✕</button>
+    </div>
+    <nav class="mob-links">
+      <a href="#catalog">Каталог</a>
+      <a href="#how">Як працюємо</a>
+      <a href="#services">Послуги</a>
+      <a href="#about">Про нас</a>
+      <a href="#reviews">Відгуки</a>
+      <a href="#footer">Контакти</a>
+    </nav>
+  </div>
+  <div>
+    <div class="mob-contacts">
+      <p class="foot-ht">Контакти</p>
+      <a href="tel:+380440000000">+38 (044) 000-00-00</a>
+      <a href="mailto:hello@kvarta.ua">hello@kvarta.ua</a>
+      <span>пн–пт 9:00–19:00, сб 10:00–15:00</span>
+      <div class="foot-soc">
+        <a href="#" class="soc-btn" aria-label="Instagram">ig</a>
+        <a href="#" class="soc-btn" aria-label="Telegram">tg</a>
+        <a href="#" class="soc-btn" aria-label="Viber">vb</a>
+      </div>
+    </div>
+    <a href="#cta" class="mob-cta" data-popup="Підбір житла">Підібрати житло</a>
+  </div>
+</div>
+
+<!-- Модалка команди -->
+<div class="modal-overlay" id="teamModal" role="dialog" aria-modal="true" aria-labelledby="modalName">
+  <div class="modal-card">
+    <button type="button" class="modal-close" id="modalClose" aria-label="Закрити">✕</button>
+    <div class="modal-photo-wrap"><img id="modalPhoto" alt="" width="600" height="450"></div>
+    <div class="modal-body">
+      <div id="modalRole" class="modal-role"></div>
+      <div id="modalName" class="modal-name"></div>
+      <div id="modalBio" class="modal-bio"></div>
+      <div id="modalTags" class="modal-tags"></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===========================================================
+  ✏️ ПОП-АП ФОРМА «Зв'язатися з командою» (відкривають усі кнопки)
+=========================================================== -->
+<div class="pop-overlay" id="popForm" role="dialog" aria-modal="true" aria-labelledby="popTitle" aria-hidden="true">
+  <div class="pop-card">
+    <button type="button" class="pop-close" id="popClose" aria-label="Закрити">✕</button>
+
+    <div class="pop-photo">
+      <img width="800" height="1000" src="https://res.cloudinary.com/saqtvvrp/image/upload/c_fill,g_auto,w_800,h_1000,q_auto:best,f_auto/v1793037553/2_%D0%BA%D0%B0%D1%80%D1%82%D0%B0.jpg" alt="Тераса квартири в ЖК River Park" loading="lazy">
+      <div class="pop-photo-cap">
+        <span class="pop-stars" aria-hidden="true">★★★★★</span>
+        <span>640+ угод · оцінка 4.9 / 5</span>
+      </div>
+    </div>
+
+    <div class="pop-body">
+      <div class="pop-form" id="popFormView">
+        <p class="pop-k">Кварта<span>.</span></p>
+        <h2 class="pop-title" id="popTitle">Зв'яжіться з нашою командою</h2>
+        <p class="pop-sub">Залиште ім'я та телефон — передзвонимо протягом 30 хвилин у робочий час.</p>
+        <div class="pop-ctx" id="popCtx" hidden></div>
+
+        <label class="pop-field">
+          <span>Ім'я</span>
+          <input class="pop-inp" id="popName" type="text" placeholder="Ваше ім'я" autocomplete="name">
+        </label>
+        <label class="pop-field">
+          <span>Телефон</span>
+          <input class="pop-inp" id="popTel" type="tel" inputmode="tel" placeholder="+38 (0__) ___-__-__" autocomplete="tel">
+        </label>
+
+        <button type="button" class="btn-primary pop-btn" id="popSend">Зв'язатися</button>
+        <p class="pop-note">Натискаючи кнопку, ви погоджуєтесь з <a href="#" data-legal="privacy">Політикою конфіденційності</a></p>
+      </div>
+
+      <div class="pop-done" id="popDone" hidden>
+        <div class="pop-done-ico" aria-hidden="true">
+          <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h2 class="pop-title">Дякуємо!</h2>
+        <p class="pop-sub">Заявку отримано. Передзвонимо протягом 30 хвилин у робочий час.</p>
+        <button type="button" class="btn-primary pop-btn" id="popOk">Добре</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===========================================================
+  ✏️ ПОП-АП ЮРИДИЧНИХ ДОКУМЕНТІВ (посилання в підвалі)
+  ⚠️ Тексти — шаблон. Заповніть дані в [дужках] і погодьте з юристом.
+=========================================================== -->
+<div class="lg-overlay" id="legalPop" role="dialog" aria-modal="true" aria-label="Юридична інформація" aria-hidden="true">
+  <div class="lg-card">
+    <div class="lg-head">
+      <div class="lg-tabs" role="tablist"><button type="button" class="lg-tab" role="tab" data-doc="privacy" aria-selected="false">Політика конфіденційності</button><button type="button" class="lg-tab" role="tab" data-doc="terms" aria-selected="false">Умови використання</button><button type="button" class="lg-tab" role="tab" data-doc="legal" aria-selected="false">Правова інформація</button><button type="button" class="lg-tab" role="tab" data-doc="cookies" aria-selected="false">Політика файлів cookie</button></div>
+      <button type="button" class="pop-close lg-close" id="legalClose" aria-label="Закрити">✕</button>
+    </div>
+    <div class="lg-body" id="legalBody">
+      <article class="lg-doc" data-doc="privacy" role="tabpanel" hidden>
+        <h2 class="lg-title">Політика конфіденційності</h2>
+<h3>1. Загальні положення</h3>
+<p>Ця Політика пояснює, які персональні дані збирає агенція нерухомості «Кварта», навіщо ми це робимо та як їх захищаємо. Політику складено відповідно до Закону України «Про захист персональних даних» № 2297-VI.</p>
+
+<h3>2. Які дані ми збираємо</h3>
+<ul>
+  <li><b>Дані, які ви надаєте самі:</b> ім’я, номер телефону, а також інформацію про ваш запит — об’єкт, послугу, район або текст пошуку.</li>
+  <li><b>Технічні дані:</b> IP-адреса, тип браузера та пристрою, дата й час відвідування. Вони передаються автоматично під час відкриття сайту.</li>
+</ul>
+<p>Ми не збираємо спеціальні категорії даних (про здоров’я, релігійні чи політичні погляди тощо) і не просимо паспортних даних через сайт.</p>
+
+<h3>3. Навіщо ми обробляємо дані</h3>
+<ul>
+  <li>щоб зв’язатися з вами за заявкою та проконсультувати;</li>
+  <li>щоб підібрати об’єкти нерухомості під ваш запит;</li>
+  <li>щоб підготувати, укласти та виконати договір про надання послуг;</li>
+  <li>щоб покращувати роботу сайту та якість обслуговування;</li>
+  <li>щоб виконувати вимоги законодавства України.</li>
+</ul>
+
+<h3>4. Підстави обробки</h3>
+<p>Ми обробляємо дані на підставі вашої згоди, яку ви надаєте, надсилаючи заявку; для укладення та виконання договору з вами; а також у випадках, передбачених законом.</p>
+
+<h3>5. Кому ми можемо передавати дані</h3>
+<p>Ми не продаємо і не передаємо ваші дані для реклами третіх осіб. Дані можуть отримати лише:</p>
+<ul>
+  <li>наші працівники та агенти, які працюють з вашим запитом;</li>
+  <li>постачальники технічних послуг — хостинг, CRM, телефонія, сервіси розсилки — у межах, необхідних для їхньої роботи;</li>
+  <li>нотаріуси, банки та інші партнери — лише за вашим запитом, наприклад для оформлення угоди чи іпотеки;</li>
+  <li>державні органи — у випадках, прямо передбачених законом.</li>
+</ul>
+
+<h3>6. Скільки ми зберігаємо дані</h3>
+<p>Не довше, ніж це потрібно для мети обробки. Заявки, які не перейшли в договір, зберігаються до 12 місяців, після чого видаляються. Дані, пов’язані з договорами, зберігаються протягом строків, встановлених законодавством.</p>
+
+<h3>7. Як ми захищаємо дані</h3>
+<p>Ми застосовуємо організаційні та технічні заходи захисту: обмежуємо доступ до даних колом працівників, яким вони потрібні для роботи, використовуємо захищені сервіси та паролі.</p>
+
+<h3>8. Ваші права</h3>
+<p>Відповідно до статті 8 Закону «Про захист персональних даних» ви маєте право:</p>
+<ul>
+  <li>знати, які ваші дані ми обробляємо, з якою метою і кому вони передаються;</li>
+  <li>отримати доступ до своїх даних;</li>
+  <li>вимагати виправлення неточних або видалення своїх даних;</li>
+  <li>заперечити проти обробки та відкликати згоду;</li>
+  <li>звернутися зі скаргою до Уповноваженого Верховної Ради України з прав людини або до суду.</li>
+</ul>
+<p>Щоб скористатися своїми правами, напишіть на <a href="mailto:hello@kvarta.ua">hello@kvarta.ua</a>. Ми відповімо не пізніше ніж за 30 календарних днів.</p>
+
+<h3>9. Зміни Політики</h3>
+<p>Ми можемо оновлювати цю Політику. Актуальна редакція завжди опублікована на сайті з датою останнього оновлення.</p>
+      </article>
+      <article class="lg-doc" data-doc="terms" role="tabpanel" hidden>
+        <h2 class="lg-title">Умови використання</h2>
+<h3>1. Загальні положення</h3>
+<p>Ці Умови регулюють використання сайту агенції нерухомості «Кварта». Власник сайту — ТОВ «Кварта». Користуючись сайтом, ви погоджуєтесь з цими Умовами. Якщо ви не погоджуєтесь — будь ласка, не використовуйте сайт.</p>
+
+<h3>2. Інформація на сайті</h3>
+<ul>
+  <li>Описи об’єктів, ціни, площі та інші характеристики мають інформаційний характер і не є публічною офертою у розумінні статті 641 Цивільного кодексу України.</li>
+  <li>Ціни та наявність об’єктів можуть змінюватися. Актуальну інформацію уточнюйте у менеджера.</li>
+  <li>Фотографії можуть мати ілюстративний характер і не завжди точно відображати поточний стан об’єкта.</li>
+</ul>
+
+<h3>3. Послуги та комісія</h3>
+<p>Розміри комісії, зазначені на сайті, є орієнтовними. Остаточні умови надання послуг, вартість та порядок оплати визначаються письмовим договором між вами та агенцією.</p>
+
+<h3>4. Заявки</h3>
+<p>Надсилаючи заявку, ви підтверджуєте, що вказані дані правдиві і належать вам, та погоджуєтесь, що ми зв’яжемося з вами за вказаним номером телефону. Обробка даних відбувається відповідно до Політики конфіденційності.</p>
+
+<h3>5. Інтелектуальна власність</h3>
+<p>Тексти, дизайн, логотип та інші матеріали сайту охороняються законодавством України про авторське право. Копіювання та використання матеріалів без письмового дозволу власника сайту заборонено.</p>
+
+<h3>6. Заборонені дії</h3>
+<ul>
+  <li>втручатися в роботу сайту або намагатися отримати несанкціонований доступ;</li>
+  <li>автоматично збирати дані з сайту (парсинг) без нашої згоди;</li>
+  <li>надсилати заявки з неправдивими даними або від імені інших осіб.</li>
+</ul>
+
+<h3>7. Обмеження відповідальності</h3>
+<p>Ми докладаємо зусиль, щоб інформація на сайті була точною, але не несемо відповідальності за рішення, ухвалені лише на її основі без консультації з нами, за тимчасову недоступність сайту, а також за вміст сторонніх ресурсів, на які можуть вести посилання.</p>
+
+<h3>8. Застосовне право</h3>
+<p>До цих Умов застосовується законодавство України. Спори вирішуються шляхом переговорів, а в разі недосягнення згоди — у суді відповідно до законодавства України.</p>
+
+<h3>9. Зміни Умов</h3>
+<p>Ми можемо змінювати ці Умови. Нова редакція діє з моменту її публікації на сайті.</p>
+      </article>
+      <article class="lg-doc" data-doc="legal" role="tabpanel" hidden>
+        <h2 class="lg-title">Правова інформація</h2>
+
+<h3>Контакти</h3>
+<dl class="lg-dl">
+  <dt>Телефон</dt><dd><a href="tel:+380440000000">+38 (044) 000-00-00</a></dd>
+  <dt>Email</dt><dd><a href="mailto:hello@kvarta.ua">hello@kvarta.ua</a></dd>
+  <dt>Графік роботи</dt><dd>пн–пт 9:00–19:00, сб 10:00–15:00</dd>
+</dl>
+
+<h3>Вид діяльності</h3>
+<p>Посередницькі послуги у сфері нерухомості: підбір, купівля, продаж та оренда житла. КВЕД 68.31 «Агентства нерухомості». Станом на дату публікації посередницька діяльність у сфері нерухомості в Україні не підлягає ліцензуванню.</p>
+
+<h3>Про інформацію на сайті</h3>
+<p>Показники «640+ угод» та «4.9 / 5» — це внутрішні дані агенції станом на 29 жовтня 2026 р. Відгуки опубліковані за згодою клієнтів.</p>
+
+<h3>Захист прав споживачів</h3>
+<p>Ми працюємо відповідно до Закону України «Про захист прав споживачів». Якщо у вас є претензія щодо наших послуг, напишіть на <a href="mailto:hello@kvarta.ua">hello@kvarta.ua</a> — ми розглянемо звернення та відповімо. Ви також маєте право звернутися до Державної служби України з питань безпечності харчових продуктів та захисту споживачів або до суду.</p>
+      </article>
+      <article class="lg-doc" data-doc="cookies" role="tabpanel" hidden>
+        <h2 class="lg-title">Політика файлів cookie</h2>
+<h3>1. Що таке cookie</h3>
+<p>Cookie — це невеликі файли, які сайт зберігає у вашому браузері. Схожим чином працюють технології локального сховища браузера (localStorage та sessionStorage). У цій Політиці ми називаємо їх усіх «cookie».</p>
+
+<h3>2. Які cookie ми використовуємо</h3>
+<p><b>Необхідні.</b> Сайт зберігає одну позначку про те, що вікно заявки вже показувалось під час вашого візиту, щоб не відкривати його повторно. Позначка зберігається в sessionStorage і видаляється автоматично після закриття вкладки. Вона не містить персональних даних.</p>
+<p><b>Аналітичні та рекламні.</b> Наразі ми їх не використовуємо. Якщо ми підключимо такі сервіси (наприклад, статистику відвідувань), ми оновимо цю Політику і попросимо вашу згоду перед їх увімкненням.</p>
+
+<h3>3. Сторонні сервіси</h3>
+<p>Щоб сайт швидко завантажувався, шрифти, зображення та відео підвантажуються зі сторонніх сервісів: Google Fonts, Cloudinary та Unsplash. Під час завантаження ваш браузер передає їм технічні дані, зокрема IP-адресу. Ці сервіси діють відповідно до власних політик конфіденційності.</p>
+
+<h3>4. Як керувати cookie</h3>
+<p>Ви можете переглянути та видалити cookie, а також заборонити їх збереження в налаштуваннях свого браузера. Сайт продовжить працювати, але вікно заявки може показуватися при кожному відкритті сторінки.</p>
+
+<h3>5. Зміни та контакти</h3>
+<p>Ми можемо оновлювати цю Політику. З питань щодо cookie пишіть на <a href="mailto:hello@kvarta.ua">hello@kvarta.ua</a>.</p>
+      </article>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+
+<!-- ===========================================================
+  🔒 НЕ ЧІПАЙ — JS ENGINE
+  Scroll-driven відео + overlay текст
+  Нічого тут не змінювати
+=========================================================== -->
+<script>
+  // -- vh фікс --
+  function setVh() {
+    // visualViewport враховує адресний рядок браузера на мобілі
+    const h = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+    document.documentElement.style.setProperty('--vh', h + 'px');
+  }
+  setVh();
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(setVh, 150);
+  });
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(setVh, 150);
+    });
+  }
+
+  // -- Елементи --
+  const video           = document.getElementById('bg-video');
+  const heroContent     = document.getElementById('hero-content');
+  const heroOverlay     = document.getElementById('hero-overlay');
+  const scrollContainer = document.getElementById('scroll-container');
+
+  // -- Відео стан --
+  let videoReady   = false;
+  let targetTime   = 0;
+  let currentTime  = 0;
+  let seekLocked   = false;
+  let lastProgress = -1;
+
+  video.addEventListener('loadedmetadata', () => { videoReady = true; });
+  video.load();
+
+  // -- Seek engine --
+  function doSeek() {
+    if (!videoReady || !video.duration) return;
+    if (Math.abs(targetTime - currentTime) < 0.05) { seekLocked = false; return; }
+    seekLocked  = true;
+    currentTime = targetTime;
+    if ('requestVideoFrameCallback' in video) {
+      video.requestVideoFrameCallback(() => { seekLocked = false; doSeek(); });
+    } else {
+      video.addEventListener('seeked', function onSeeked() {
+        video.removeEventListener('seeked', onSeeked);
+        seekLocked = false;
+        doSeek();
+      }, { once: true });
+    }
+    video.currentTime = currentTime;
+  }
+
+  // ============================================================
+  // SCROLL ENGINE
+  // Desktop: custom momentum wheel scroll
+  // Mobile: повністю нативний скрол iOS/Android
+  // ============================================================
+
+  const isMobile = () => window.matchMedia('(pointer: coarse)').matches;
+
+  const EASE = 0.09;
+  let targetScrollY = 0;
+  let smoothScrollY = 0;
+
+  function maxScroll() {
+    return Math.max(0, document.body.scrollHeight - window.innerHeight);
+  }
+
+  // -- Анімація hero (спільна для обох режимів) --
+  function updateHeroAnimation(scrollY) {
+    const trackH = scrollContainer.offsetHeight - window.innerHeight;
+    if (trackH <= 0) return;
+    const progress = Math.max(0, Math.min(1, scrollY / trackH));
+
+    if (Math.abs(progress - lastProgress) < 0.0001) return;
+    lastProgress = progress;
+
+    // Відео: 0% → 100%
+    if (videoReady && video.duration) {
+      targetTime = progress * video.duration;
+      if (!seekLocked) doSeek();
+    }
+
+    // Текст: 0% → 35%
+    const textP = Math.min(1, progress / 0.35);
+    const ease  = textP < 0.5 ? 2*textP*textP : 1 - Math.pow(-2*textP+2, 2) / 2;
+    heroContent.style.transform = `translateY(${ease * -90}px)`;
+    heroContent.style.opacity   = (1 - ease).toFixed(3);
+
+    // Overlay: 35%→50% in, 55%→67% out
+    const ovIn  = Math.max(0, Math.min(1, (progress - 0.35) / 0.15));
+    const ovOut = Math.max(0, Math.min(1, (progress - 0.55) / 0.12));
+    const ovEaseIn  = ovIn  < 0.5 ? 2*ovIn*ovIn   : 1 - Math.pow(-2*ovIn+2,  2)/2;
+    const ovEaseOut = ovOut < 0.5 ? 2*ovOut*ovOut  : 1 - Math.pow(-2*ovOut+2, 2)/2;
+    const ovOpacity = ovEaseIn * (1 - ovEaseOut);
+    const ovY = (1 - ovEaseIn) * 30 + ovEaseOut * -30;
+    heroOverlay.style.opacity   = ovOpacity.toFixed(3);
+    heroOverlay.style.transform = isMobile() ? 'none' : `translateY(${ovY}px)`;
+  }
+
+  if (isMobile()) {
+    // ── MOBILE: нативний скрол ──
+    document.documentElement.style.overflow = '';
+    document.body.style.overflow = '';
+
+    window.addEventListener('scroll', () => {
+      updateHeroAnimation(window.scrollY);
+    }, { passive: true });
+
+    updateHeroAnimation(window.scrollY);
+
+  } else {
+    // ── DESKTOP: momentum wheel ──
+    window.scrollTo(0, 0);
+    targetScrollY = 0;
+    smoothScrollY = 0;
+
+    window.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      targetScrollY += e.deltaY * 1.2;
+      targetScrollY = Math.max(0, Math.min(targetScrollY, maxScroll()));
+    }, { passive: false });
+
+    function tick() {
+      requestAnimationFrame(tick);
+
+      targetScrollY = Math.max(0, Math.min(targetScrollY, maxScroll()));
+      smoothScrollY += (targetScrollY - smoothScrollY) * EASE;
+
+      if (Math.abs(targetScrollY - smoothScrollY) < 0.5) {
+        smoothScrollY = targetScrollY;
+      }
+
+      if (Math.abs(smoothScrollY - window.scrollY) > 0.5) {
+        window.scrollTo(0, smoothScrollY);
+      }
+
+      updateHeroAnimation(smoothScrollY);
+    }
+
+    tick();
+  }
+</script>
+
+<!-- ===========================================================
+  ✏️ МОБАЙЛ: плавне відео в hero (engine не змінено)
+  1) легша версія відео: 720px, без звуку, ключовий кадр кожні 0.1с
+     (Cloudinary: w_720,q_auto,ki_0.1,ac_none) — перемотування майже миттєве
+  2) відео повністю завантажується в пам'ять (blob), щоб при скролі
+     не чекати мережу
+=========================================================== -->
+<script>
+  (function () {
+    if (!window.matchMedia('(pointer: coarse)').matches) return;
+
+    const v  = document.getElementById('bg-video');
+    const sc = document.getElementById('scroll-container');
+    const ORIG  = v.getAttribute('src');
+    const LIGHT = ORIG.replace('/video/upload/', '/video/upload/w_720,q_auto,ki_0.1,ac_none/');
+
+    // Ставимо кадр, що відповідає поточному скролу
+    function syncFrame() {
+      const track = sc.offsetHeight - window.innerHeight;
+      if (track <= 0 || !v.duration) return;
+      const p = Math.max(0, Math.min(1, window.scrollY / track));
+      try { v.currentTime = p * v.duration; } catch (e) {}
+    }
+
+    // iOS іноді не малює кадр, поки відео жодного разу не стартувало
+    let primed = false;
+    v.addEventListener('loadeddata', () => {
+      if (!primed) {
+        primed = true;
+        const pr = v.play();
+        if (pr && pr.then) pr.then(() => { v.pause(); syncFrame(); }).catch(syncFrame);
+      } else {
+        syncFrame();
+      }
+    });
+
+    // Якщо легка версія недоступна — повертаємо оригінал
+    let fellBack = false;
+    v.addEventListener('error', () => {
+      if (fellBack || v.src.startsWith('blob:')) return;
+      fellBack = true;
+      v.src = ORIG; v.load();
+    });
+
+    // 1) одразу показуємо легку версію (стрімінг)
+    v.src = LIGHT; v.load();
+
+    // 2) у фоні завантажуємо її повністю і підміняємо на локальну копію
+    fetch(LIGHT)
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.blob(); })
+      .then(blob => {
+        if (fellBack) return;
+        v.src = URL.createObjectURL(blob);
+        v.load();
+      })
+      .catch(() => {});
+  })();
+</script>
+
+
+<!-- ===========================================================
+  ✏️ ДОПОВНЕННЯ ДО ENGINE (окремий скрипт, engine не змінено)
+  На десктопі: плавний перехід по якорях у меню (#catalog...),
+  а також синхронізація з клавіатурою та скролбаром,
+  щоб сторінка не "відскакувала" назад.
+=========================================================== -->
+<script>
+  (function () {
+    function scrollToTarget(el) {
+      const y = el.getBoundingClientRect().top + window.scrollY;
+      if (isMobile()) {
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      } else {
+        targetScrollY = Math.max(0, Math.min(y, maxScroll()));
+      }
+    }
+
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest('a[href^="#"]');
+      if (!a) return;
+      const id = a.getAttribute('href');
+      e.preventDefault();
+      if (id === '#') { if (a.classList.contains('nav-logo')) scrollToTarget(document.body); return; }
+      const el = document.querySelector(id);
+      if (el) scrollToTarget(el);
+    });
+
+    // Клавіатура / скролбар: якщо скрол змінився не через engine — синхронізуємо
+    if (!isMobile()) {
+      window.addEventListener('scroll', () => {
+        if (Math.abs(window.scrollY - smoothScrollY) > 2) {
+          targetScrollY = window.scrollY;
+          smoothScrollY = window.scrollY;
+        }
+      }, { passive: true });
+    }
+  })();
+</script>
+
+<!-- ===========================================================
+  ✏️ СКРИПТИ — команда, форма, бургер-меню, обране — команда (модалка) і форма заявки
+=========================================================== -->
+<script>
+  // ✏️ Дані команди — міняй тут
+  const TEAM = [
+    { name: "Олена Коваленко", role: "Засновниця, юрист",
+      photo: "https://res.cloudinary.com/saqtvvrp/image/upload/e_upscale/c_fill,ar_3:4,g_face/c_limit,w_700/e_sharpen:60/q_auto:best,f_auto/v1793132500/%D0%97%D0%B0%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D1%86%D1%8F.jpg",
+      bio: "Олені 29 років, юрист за освітою. Кварту заснувала у 2018-му після того, як сама пережила проблемну угоду. Особисто перевіряє документи на кожен об'єкт і веде найскладніші кейси — спадщини, часткова власність, обтяження.",
+      tags: ["Юридична перевірка", "Іпотека", "Печерськ"] },
+    { name: "Тарас Мельник", role: "Провідний агент",
+      photo: "https://res.cloudinary.com/saqtvvrp/image/upload/e_upscale/c_fill,ar_3:4,g_face/c_limit,w_700/e_sharpen:60/q_auto:best,f_auto/v1793132512/%D0%BF%D1%80%D0%BE%D0%B2%D1%96%D0%B4%D0%BD%D0%B8%D0%B9_%D0%B0%D0%B3%D0%B5%D0%BD%D1%82.jpg",
+      bio: "Тарасу 31 рік, у нерухомості з 2017-го. Знає Лівий берег і Голосіїво як свою долоню — особисто оглянув понад 900 квартир. Середній термін закриття угоди з продажу — 38 днів.",
+      tags: ["Купівля", "Продаж", "Голосіїво", "Лівий берег"] },
+    { name: "Соня Гринчишин", role: "Агент з оренди",
+      photo: "https://res.cloudinary.com/saqtvvrp/image/upload/e_upscale/c_fill,ar_3:4,g_face/c_limit,w_700/e_sharpen:60/q_auto:best,f_auto/v1793132523/%D0%90%D0%B3%D0%B5%D0%BD%D1%82_%D0%B7_%D0%BE%D1%80%D0%B5%D0%BD%D0%B4%D0%B8.jpg",
+      bio: "Соні 28 років. Спеціалізується на оренді — допомагає і власникам знайти перевірених орендарів, і тим хто шукає житло. Підбирає варіанти дистанційно для клієнтів з інших міст.",
+      tags: ["Оренда", "Поділ", "Шевченківський"] },
+    { name: "Дмитро Бойко", role: "Іпотечний консультант",
+      photo: "https://res.cloudinary.com/saqtvvrp/image/upload/e_upscale/c_fill,ar_3:4,g_face/c_limit,w_700/e_sharpen:60/q_auto:best,f_auto/v1793132531/%D0%86%D0%BF%D0%BE%D1%82%D0%B5%D1%87%D0%BD%D0%B8%D0%B9_%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82.jpg",
+      bio: "Дмитру 30 років, колишній банківський аналітик. Знає умови 12 банків зсередини — підбирає іпотеку під конкретну ситуацію клієнта і супроводжує до отримання рішення. Консультація безкоштовна.",
+      tags: ["Іпотека", "Фінансовий аналіз", "ПриватБанк", "Ощадбанк"] }
+  ];
+
+  const teamModal = document.getElementById('teamModal');
+  let modalOpen = false;
+  let lastFocus = null;
+
+  function openTeam(i) {
+    const d = TEAM[i];
+    // Беремо те саме фото, що й на картці: людина там по центру
+    const mp = document.getElementById('modalPhoto');
+    const cardImg = document.querySelectorAll('.tm-card img')[i];
+    mp.onerror = null;
+    mp.src = (cardImg && (cardImg.currentSrc || cardImg.src)) || d.photo;
+    document.getElementById('modalPhoto').alt = d.name;
+    document.getElementById('modalRole').textContent = d.role;
+    document.getElementById('modalName').textContent = d.name;
+    document.getElementById('modalBio').textContent  = d.bio;
+    document.getElementById('modalTags').innerHTML =
+      d.tags.map(t => `<span class="modal-tag">${t}</span>`).join('');
+    lastFocus = document.activeElement;
+    teamModal.classList.add('open');
+    document.documentElement.style.overflow = 'hidden';
+    modalOpen = true;
+    document.getElementById('modalClose').focus();
+  }
+
+  function closeTeam() {
+    if (!modalOpen) return;
+    teamModal.classList.remove('open');
+    document.documentElement.style.overflow = '';
+    modalOpen = false;
+    if (lastFocus) lastFocus.focus();
+  }
+
+  document.getElementById('modalClose').addEventListener('click', closeTeam);
+  teamModal.addEventListener('click', (e) => { if (e.target === teamModal) closeTeam(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeTeam(); });
+
+  // -- Бургер-меню --
+  const burger  = document.getElementById('burger');
+  const mobMenu = document.getElementById('mobMenu');
+  let menuOpen = false;
+
+  function setMenu(open) {
+    menuOpen = open;
+    mobMenu.classList.toggle('open', open);
+    mobMenu.setAttribute('aria-hidden', String(!open));
+    burger.setAttribute('aria-expanded', String(open));
+    document.documentElement.style.overflow = open ? 'hidden' : '';
+    if (open) document.getElementById('mobClose').focus();
+    else burger.focus({ preventScroll: true });
+  }
+  burger.addEventListener('click', () => setMenu(true));
+  document.getElementById('mobClose').addEventListener('click', () => setMenu(false));
+  // Клік на пункт меню — закриваємо меню, далі спрацьовує плавний скрол до секції
+  mobMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { if (menuOpen) setMenu(false); }));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && menuOpen) setMenu(false); });
+
+  // Поки модалка або меню відкриті — колесо миші не гортає сторінку під ними
+  window.addEventListener('wheel', (e) => {
+    if (modalOpen || menuOpen || window.popOpen || window.legalOpen) e.stopImmediatePropagation();
+  }, { capture: true, passive: false });
+
+  // -- Обране (сердечко на картці) --
+  document.querySelectorAll('.l-fav').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const on = btn.classList.toggle('on');
+      btn.setAttribute('aria-pressed', String(on));
+      showToast(on ? 'Додано в обране' : 'Прибрано з обраного');
+    });
+  });
+
+  // -- Повідомлення --
+  let toastTimer;
+  function showToast(msg, type) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.className = 'toast show' + (type === 'err' ? ' err' : '');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => t.classList.remove('show'), 3500);
+  }
+
+  // -- Форма заявки --
+  // ⚠️ Зараз відправка імітується. Щоб заявки реально приходили,
+  // заміни setTimeout на відправку у свій сервіс (Telegram-бот, CRM, Formspree тощо).
+  const nameEl = document.getElementById('cta-name');
+  const telEl  = document.getElementById('cta-tel');
+  const selEl  = document.getElementById('cta-sel');
+  const ctaBtn = document.getElementById('cta-btn');
+
+  ctaBtn.addEventListener('click', () => {
+    let valid = true;
+    [nameEl, telEl, selEl].forEach(el => el.classList.remove('error'));
+    if (!nameEl.value.trim()) { nameEl.classList.add('error'); valid = false; }
+    if (telEl.value.replace(/\D/g, '').length < 10) { telEl.classList.add('error'); valid = false; }
+    if (!selEl.value) { selEl.classList.add('error'); valid = false; }
+    if (!valid) { showToast("Заповніть ім'я, телефон і що вас цікавить", 'err'); return; }
+
+    ctaBtn.disabled = true;
+    ctaBtn.textContent = 'Відправляємо…';
+    setTimeout(() => {
+      nameEl.value = ''; telEl.value = ''; selEl.value = '';
+      ctaBtn.disabled = false;
+      ctaBtn.textContent = 'Залишити заявку';
+      showToast('Заявку отримано. Передзвонимо протягом 30 хвилин');
+    }, 1000);
+  });
+
+  [nameEl, telEl, selEl].forEach(el => {
+    el.addEventListener('input',  () => el.classList.remove('error'));
+    el.addEventListener('change', () => el.classList.remove('error'));
+  });
+
+</script>
+<!-- ✏️ Hero: вкладки пошуку, кнопка «Знайти» -->
+<script>
+  (function () {
+    const tabs = document.querySelectorAll('.s-tab');
+    tabs.forEach(t => t.addEventListener('click', () => {
+      tabs.forEach(x => { x.classList.remove('on'); x.setAttribute('aria-selected', 'false'); });
+      t.classList.add('on'); t.setAttribute('aria-selected', 'true');
+    }));
+
+    // «Знайти» — веде до каталогу (сюди можна підключити реальний пошук)
+    function goSearch() { document.getElementById('s-btn').click(); }
+    document.getElementById('s-input').addEventListener('keydown', e => { if (e.key === 'Enter') goSearch(); });
+
+    // Коли текст hero зникає під час скролу — його кнопки не перехоплюють кліки
+    const hc = document.getElementById('hero-content');
+    (function watch() {
+      const o = parseFloat(hc.style.opacity || '1');
+      hc.style.pointerEvents = o < 0.3 ? 'none' : '';
+      requestAnimationFrame(watch);
+    })();
+  })();
+</script>
+<!-- ✏️ Послуги: світні лінії між картками + вибір послуги -->
+<script>
+  (function () {
+    const flow = document.getElementById('svcFlow');
+    const svg  = document.getElementById('svcLines');
+    const c1 = document.getElementById('svc1');
+    const c2 = document.getElementById('svc2');
+    const c3 = document.getElementById('svc3');
+    const NS = 'http://www.w3.org/2000/svg';
+
+    function box(el) {
+      const f = flow.getBoundingClientRect(), r = el.getBoundingClientRect();
+      return { l: r.left - f.left, t: r.top - f.top, r: r.right - f.left, b: r.bottom - f.top, w: r.width, h: r.height };
+    }
+
+    function draw() {
+      const A = box(c1), B = box(c2), C = box(c3);
+      const mobile = window.innerWidth <= 768 || B.l - A.l < 40;
+      const R = 28;
+      let paths = [], dots = [];
+
+      if (mobile) {
+        const x = A.l + 40;
+        paths.push(`M${x} ${A.b} V${B.t}`);
+        paths.push(`M${x} ${B.b} V${C.t}`);
+        dots.push([x, A.b], [x, B.t], [x, B.b], [x, C.t]);
+      } else {
+        // 1 → 2: вниз від картки 1, поворот вправо до лівого краю картки 2
+        const x1 = A.l + A.w * 0.4, y1 = A.b, y2 = B.t + B.h * 0.42, x2 = B.l;
+        paths.push(`M${x1} ${y1} V${y2 - R} Q${x1} ${y2} ${x1 + R} ${y2} H${x2}`);
+        dots.push([x1, y1], [x2, y2]);
+        // 2 → 3: вниз від картки 2, поворот вліво до правого краю картки 3
+        const x3 = B.l + B.w * 0.55, y3 = B.b, y4 = C.t + C.h * 0.38, x4 = C.r;
+        paths.push(`M${x3} ${y3} V${y4 - R} Q${x3} ${y4} ${x3 - R} ${y4} H${x4}`);
+        dots.push([x3, y3], [x4, y4]);
+      }
+
+      svg.innerHTML = '';
+      paths.forEach(d => {
+        ['ln-base', 'ln-run'].forEach(cls => {
+          const p = document.createElementNS(NS, 'path');
+          p.setAttribute('d', d); p.setAttribute('class', cls); svg.appendChild(p);
+        });
+      });
+      dots.forEach(([x, y]) => {
+        const c = document.createElementNS(NS, 'circle');
+        c.setAttribute('cx', x); c.setAttribute('cy', y); c.setAttribute('r', 6); svg.appendChild(c);
+      });
+    }
+
+    draw();
+    if ('ResizeObserver' in window) new ResizeObserver(draw).observe(flow);
+    window.addEventListener('resize', draw);
+    window.addEventListener('load', draw);
+    if (document.fonts) document.fonts.ready.then(draw);
+
+    // Вибір послуги в картці 2
+    const opts = document.querySelectorAll('.svc-opt');
+    opts.forEach(o => o.addEventListener('click', () => {
+      opts.forEach(x => x.setAttribute('aria-checked', 'false'));
+      o.setAttribute('aria-checked', 'true');
+    }));
+  })();
+</script>
+<!-- ✏️ Поп-ап форма: відкриття з усіх кнопок, маска телефону, відправка -->
+<script>
+  (function () {
+    const pop   = document.getElementById('popForm');
+    const view  = document.getElementById('popFormView');
+    const done  = document.getElementById('popDone');
+    const ctxEl = document.getElementById('popCtx');
+    const nameI = document.getElementById('popName');
+    const telI  = document.getElementById('popTel');
+    const send  = document.getElementById('popSend');
+    let lastFocus = null;
+    let context = '';
+    window.popOpen = false;
+
+    // Контекст заявки: що саме цікавить (об'єкт, послуга, пошук)
+    function contextFor(el) {
+      const v = el.getAttribute('data-popup');
+      if (v === 'card') {
+        const street = el.querySelector('.l-street')?.textContent.trim() || '';
+        const price  = el.querySelector('.l-price')?.textContent.trim() || '';
+        return `Об'єкт: ${street}${price ? ', ' + price : ''}`;
+      }
+      if (v === 'search') {
+        const tab = document.querySelector('.s-tab.on')?.textContent.trim() || '';
+        const q   = document.getElementById('s-input')?.value.trim() || '';
+        return `Пошук: ${tab}${q ? ' · ' + q : ''}`;
+      }
+      return v || '';
+    }
+
+    function openPop(ctx) {
+      context = ctx;
+      ctxEl.textContent = ctx;
+      ctxEl.hidden = !ctx;
+      view.hidden = false; done.hidden = true;
+      [nameI, telI].forEach(i => i.classList.remove('error'));
+      lastFocus = document.activeElement;
+      pop.classList.add('open');
+      pop.setAttribute('aria-hidden', 'false');
+      document.documentElement.style.overflow = 'hidden';
+      window.popOpen = true;
+      setTimeout(() => nameI.focus({ preventScroll: true }), 120);
+    }
+
+    function closePop() {
+      if (!window.popOpen) return;
+      pop.classList.remove('open');
+      pop.setAttribute('aria-hidden', 'true');
+      document.documentElement.style.overflow = '';
+      window.popOpen = false;
+      if (lastFocus && lastFocus.focus) lastFocus.focus({ preventScroll: true });
+    }
+
+    // Усі кнопки з data-popup відкривають форму (перехоплюємо раніше за плавний скрол)
+    document.addEventListener('click', (e) => {
+      const t = e.target.closest('[data-popup]');
+      if (!t || e.target.closest('.l-fav')) return;
+      e.preventDefault();
+      e.stopPropagation();
+      if (typeof menuOpen !== 'undefined' && menuOpen && typeof setMenu === 'function') setMenu(false);
+      openPop(contextFor(t));
+    }, true);
+
+    // Картка об'єкта з клавіатури
+    document.querySelectorAll('.l-card[data-popup]').forEach(c => c.addEventListener('keydown', (e) => {
+      if ((e.key === 'Enter' || e.key === ' ') && e.target === c) { e.preventDefault(); openPop(contextFor(c)); }
+    }));
+
+    document.getElementById('popClose').addEventListener('click', closePop);
+    document.getElementById('popOk').addEventListener('click', closePop);
+    pop.addEventListener('click', (e) => { if (e.target === pop) closePop(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closePop(); });
+
+    // Маска телефону: +38 (0XX) XXX-XX-XX
+    function digits(v) {
+      let d = v.replace(/\D/g, '');
+      if (d.startsWith('380')) d = d.slice(3);
+      else if (d.startsWith('38')) d = d.slice(2);
+      if (d.startsWith('0')) d = d.slice(1);
+      return d.slice(0, 9);
+    }
+    function fmt(d) {
+      let out = '+38 (0';
+      out += d.slice(0, 2);
+      if (d.length >= 2) out += ') ';
+      out += d.slice(2, 5);
+      if (d.length >= 5) out += '-';
+      out += d.slice(5, 7);
+      if (d.length >= 7) out += '-';
+      out += d.slice(7, 9);
+      return out;
+    }
+    telI.addEventListener('focus', () => { if (!telI.value) telI.value = '+38 (0'; });
+    telI.addEventListener('blur',  () => { if (digits(telI.value).length === 0) telI.value = ''; });
+    telI.addEventListener('input', () => { telI.value = fmt(digits(telI.value)); telI.classList.remove('error'); });
+    nameI.addEventListener('input', () => nameI.classList.remove('error'));
+
+    // Відправка
+    // ⚠️ Зараз відправка імітується. Щоб заявки приходили, заміни setTimeout
+    // на відправку у свій сервіс (Telegram-бот, email, CRM). Дані: name, phone, context.
+    function submit() {
+      const name = nameI.value.trim();
+      const tel  = digits(telI.value);
+      let ok = true;
+      if (!name) { nameI.classList.add('error'); ok = false; }
+      if (tel.length !== 9) { telI.classList.add('error'); ok = false; }
+      if (!ok) { (name ? telI : nameI).focus(); return; }
+
+      send.disabled = true;
+      send.textContent = 'Надсилаємо…';
+      const payload = { name, phone: '+380' + tel, context };
+      setTimeout(() => {
+        console.log('Заявка:', payload);
+        send.disabled = false;
+        send.textContent = "Зв'язатися";
+        nameI.value = ''; telI.value = '';
+        view.hidden = true; done.hidden = false;
+        document.getElementById('popOk').focus({ preventScroll: true });
+      }, 900);
+    }
+    send.addEventListener('click', submit);
+
+    // ✏️ Автоматичний показ при відкритті сайту
+    // AUTO_DELAY — через скільки мілісекунд показати (3000 = 3 секунди).
+    // Показується один раз за візит, щоб не набридати при переходах і оновленні сторінки.
+    const AUTO_DELAY = 0;
+    let shownThisVisit = false;
+    try { shownThisVisit = sessionStorage.getItem('kvartaPopShown') === '1'; } catch (e) {}
+    if (!shownThisVisit) {
+      setTimeout(() => {
+        const busy = window.popOpen
+          || (typeof modalOpen !== 'undefined' && modalOpen)
+          || (typeof menuOpen !== 'undefined' && menuOpen);
+        if (busy) return;
+        openPop('');
+        try { sessionStorage.setItem('kvartaPopShown', '1'); } catch (e) {}
+      }, AUTO_DELAY);
+    }
+    [nameI, telI].forEach(i => i.addEventListener('keydown', (e) => { if (e.key === 'Enter') submit(); }));
+  })();
+</script>
+<!-- ✏️ Поп-ап юридичних документів -->
+<script>
+  (function () {
+    const ov    = document.getElementById('legalPop');
+    const body  = document.getElementById('legalBody');
+    const tabs  = ov.querySelectorAll('.lg-tab');
+    const docs  = ov.querySelectorAll('.lg-doc');
+    let lastFocus = null;
+    window.legalOpen = false;
+
+    function show(key) {
+      tabs.forEach(t => t.setAttribute('aria-selected', String(t.dataset.doc === key)));
+      docs.forEach(d => { d.hidden = d.dataset.doc !== key; });
+      body.scrollTop = 0;
+      const active = ov.querySelector(`.lg-tab[data-doc="${key}"]`);
+      if (active) active.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+    }
+    function open(key) {
+      lastFocus = document.activeElement;
+      show(key);
+      ov.classList.add('open'); ov.setAttribute('aria-hidden', 'false');
+      document.documentElement.style.overflow = 'hidden';
+      window.legalOpen = true;
+      document.getElementById('legalClose').focus({ preventScroll: true });
+    }
+    function close() {
+      if (!window.legalOpen) return;
+      ov.classList.remove('open'); ov.setAttribute('aria-hidden', 'true');
+      window.legalOpen = false;
+      // якщо під ним відкрита форма заявки — сторінка лишається заблокованою
+      if (!window.popOpen) document.documentElement.style.overflow = '';
+      if (lastFocus && lastFocus.focus) lastFocus.focus({ preventScroll: true });
+    }
+
+    document.addEventListener('click', (e) => {
+      const t = e.target.closest('[data-legal]');
+      if (!t) return;
+      e.preventDefault(); e.stopPropagation();
+      open(t.dataset.legal);
+    }, true);
+    tabs.forEach(t => t.addEventListener('click', () => show(t.dataset.doc)));
+    document.getElementById('legalClose').addEventListener('click', close);
+    ov.addEventListener('click', (e) => { if (e.target === ov) close(); });
+    // Escape закриває спершу документи, а не форму під ними
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && window.legalOpen) { e.stopImmediatePropagation(); close(); }
+    }, true);
+  })();
+</script>
+</body>
+</html>
